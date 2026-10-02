@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The AI Brief — Archive</title>
+<meta name="description" content="A daily digest of frontier AI and AI in enterprise finance.">
+<style>
+  :root{
+    --paper:#FAFAF7; --ink:#1B1B18; --muted:#6B675E; --line:#E7E2D8;
+    --accent:#8C1516; --card:#FFFFFF;
+    --tag-frontier-bg:#EFF0FB; --tag-frontier-fg:#3B3FA3;
+    --tag-finance-bg:#EBF7F0; --tag-finance-fg:#0B6E4F;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{background:var(--paper); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Helvetica,Arial,sans-serif;
+    line-height:1.55; -webkit-font-smoothing:antialiased;}
+  .wrap{max-width:760px; margin:0 auto; padding:0 20px;}
+
+  header.masthead{padding:56px 0 28px; text-align:center;}
+  h1.wordmark{font-family:Georgia,"Times New Roman",serif; font-weight:700; font-size:clamp(38px,7vw,58px);
+    letter-spacing:-0.01em;}
+  h1.wordmark .dot{color:var(--accent);}
+  p.tagline{font-family:Georgia,serif; font-style:italic; color:var(--muted); font-size:17px; margin-top:10px;}
+  p.meta{font-size:13px; color:var(--muted); margin-top:14px; letter-spacing:.02em;}
+
+  .toolbar{position:sticky; top:0; z-index:10; background:rgba(250,250,247,.94);
+    backdrop-filter:blur(8px); border-top:1px solid var(--line); border-bottom:1px solid var(--line);
+    padding:12px 0;}
+  .toolbar .wrap{display:flex; gap:10px; align-items:center; flex-wrap:wrap;}
+  .search{flex:1 1 220px; display:flex; align-items:center; background:var(--card);
+    border:1px solid var(--line); border-radius:10px; padding:9px 14px;}
+  .search svg{flex:none; margin-right:8px; opacity:.45;}
+  .search input{border:0; outline:0; background:transparent; font-size:15px; width:100%; color:var(--ink);}
+  .search input::placeholder{color:#A39E93;}
+  .chips{display:flex; gap:8px;}
+  .chip{border:1px solid var(--line); background:var(--card); border-radius:999px;
+    padding:8px 16px; font-size:13.5px; cursor:pointer; color:var(--muted); transition:all .15s;}
+  .chip:hover{border-color:var(--ink); color:var(--ink);}
+  .chip.active{background:var(--ink); border-color:var(--ink); color:#fff;}
+
+  main{padding:8px 0 60px;}
+  .edition{margin-top:36px;}
+  .edition-head{display:flex; align-items:baseline; gap:12px; cursor:pointer; user-select:none;
+    padding-bottom:10px; border-bottom:2px solid var(--ink);}
+  .edition-head h2{font-family:Georgia,serif; font-size:23px; font-weight:700;}
+  .edition-head .count{font-size:13px; color:var(--muted);}
+  .edition-head .toggle{margin-left:auto; font-size:13px; color:var(--muted);}
+  .badge-latest{font-size:10.5px; letter-spacing:.12em; text-transform:uppercase; font-weight:700;
+    color:#fff; background:var(--accent); border-radius:4px; padding:3px 8px;}
+  .edition.collapsed .edition-body{display:none;}
+
+  .section-label{font-size:11.5px; letter-spacing:.16em; text-transform:uppercase; font-weight:700;
+    color:var(--muted); margin:26px 0 6px;}
+
+  article.item{background:var(--card); border:1px solid var(--line); border-radius:12px;
+    padding:18px 20px; margin:10px 0; transition:box-shadow .15s, transform .15s;}
+  article.item:hover{box-shadow:0 4px 18px rgba(27,27,24,.07); transform:translateY(-1px);}
+  .item-top{display:flex; gap:12px; align-items:baseline;}
+  .num{font-family:Georgia,serif; font-weight:700; color:var(--accent); font-size:15px; flex:none; width:22px;}
+  h3.headline{font-family:Georgia,serif; font-size:18.5px; line-height:1.35; font-weight:700;}
+  .tag{flex:none; font-size:10.5px; font-weight:700; letter-spacing:.08em; text-transform:uppercase;
+    border-radius:999px; padding:3px 10px; margin-left:auto; white-space:nowrap;}
+  .tag.frontier{background:var(--tag-frontier-bg); color:var(--tag-frontier-fg);}
+  .tag.finance{background:var(--tag-finance-bg); color:var(--tag-finance-fg);}
+  p.summary{font-size:14.5px; color:#3E3B35; margin:8px 0 10px 34px;}
+  a.source{display:inline-block; margin-left:34px; font-size:13px; font-weight:600; color:var(--accent);
+    text-decoration:none;}
+  a.source:hover{text-decoration:underline;}
+
+  .empty{display:none; text-align:center; padding:60px 20px; color:var(--muted);}
+  .empty.show{display:block;}
+  .empty p.big{font-family:Georgia,serif; font-size:22px; margin-bottom:8px; color:var(--ink);}
+  .loading{text-align:center; padding:60px 20px; color:var(--muted); font-family:Georgia,serif; font-size:18px;}
+
+  footer{border-top:1px solid var(--line); padding:28px 0 60px; text-align:center;}
+  footer p{font-size:13px; color:var(--muted);}
+
+  @media (max-width:560px){
+    p.summary, a.source{margin-left:0;}
+    .item-top{flex-wrap:wrap;}
+    .tag{margin-left:0;}
+  }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="wrap">
+    <h1 class="wordmark">The AI Brief<span class="dot">.</span></h1>
+    <p class="tagline">A daily digest of frontier AI and AI in enterprise finance.</p>
+    <p class="meta" id="meta-line"></p>
+  </div>
+</header>
+
+<div class="toolbar">
+  <div class="wrap">
+    <label class="search">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="7" cy="7" r="5.2" stroke="#1B1B18" stroke-width="1.6"/><line x1="11.2" y1="11.2" x2="14.5" y2="14.5" stroke="#1B1B18" stroke-width="1.6"/></svg>
+      <input id="q" type="text" placeholder="Search every edition…" autocomplete="off">
+    </label>
+    <div class="chips">
+      <button class="chip active" data-f="all">All</button>
+      <button class="chip" data-f="frontier">Frontier AI</button>
+      <button class="chip" data-f="finance">Finance AI</button>
+    </div>
+  </div>
+</div>
+
+<main>
+  <div class="wrap">
+    <div class="loading" id="loading">Loading editions…</div>
+    <div id="editions"></div>
+    <div class="empty" id="empty">
+      <p class="big">No matches.</p>
+      <p>Try a different keyword or section filter.</p>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p id="foot-line">Compiled every morning · Source links on every story</p>
+  </div>
+</footer>
+
+<script>
+let DATA = [];
+let query = "", section = "all";
+const TAG = {frontier:["frontier","Frontier AI"], finance:["finance","Finance AI"]};
+const editionsEl = document.getElementById("editions");
+const emptyEl = document.getElementById("empty");
+const loadingEl = document.getElementById("loading");
+
+function fmtRange(ds){
+  if(!ds.length) return "";
+  const f = d => new Date(d+"T12:00:00").toLocaleDateString("en-US",{month:"short",day:"numeric"});
+  return ds.length===1 ? f(ds[ds.length-1]) : f(ds[ds.length-1]) + " – " + f(ds[0]);
+}
+
+function matches(it){
+  if(section!=="all" && it.section!==section) return false;
+  if(!query) return true;
+  const hay = (it.headline+" "+it.summary).toLowerCase();
+  return query.toLowerCase().split(/\s+/).every(w=>hay.includes(w));
+}
+
+function render(){
+  editionsEl.innerHTML = "";
+  let nEd = 0, nIt = 0;
+  DATA.forEach((ed, ei)=>{
+    const its = ed.items.filter(matches);
+    if(!its.length) return;
+    nEd++; nIt += its.length;
+    const sec = document.createElement("section");
+    sec.className = "edition" + ((ei>0 && !query) ? " collapsed" : "");
+    const head = document.createElement("div");
+    head.className = "edition-head";
+    head.innerHTML = "<h2>"+ed.label+"</h2>" +
+      (ed.latest?'<span class="badge-latest">Latest</span>':"") +
+      '<span class="count">'+its.length+' stories</span>' +
+      '<span class="toggle">'+((ei>0 && !query)?"Expand ▾":"Collapse ▴")+"</span>";
+    head.onclick = ()=>{ sec.classList.toggle("collapsed");
+      head.querySelector(".toggle").textContent =
+        sec.classList.contains("collapsed") ? "Expand ▾" : "Collapse ▴"; };
+    sec.appendChild(head);
+    const body = document.createElement("div");
+    body.className = "edition-body";
+    let lastS = null;
+    its.forEach(it=>{
+      if(it.section!==lastS){
+        lastS = it.section;
+        const lab = document.createElement("div");
+        lab.className = "section-label";
+        lab.textContent = it.section==="frontier" ? "Frontier AI" : "AI in Enterprise Finance";
+        body.appendChild(lab);
+      }
+      const [cls,label] = TAG[it.section];
+      const art = document.createElement("article");
+      art.className = "item";
+      const esc = s => s.replace(/&/g,"&amp;").replace(/</g,"&lt;");
+      art.innerHTML =
+        '<div class="item-top"><span class="num">'+it.n+'</span><h3 class="headline">'+esc(it.headline)+'</h3>'+
+        '<span class="tag '+cls+'">'+label+'</span></div>'+
+        '<p class="summary">'+esc(it.summary)+'</p>'+
+        '<a class="source" href="'+it.url+'" target="_blank" rel="noopener">'+esc(it.source)+' →</a>';
+      body.appendChild(art);
+    });
+    sec.appendChild(body);
+    editionsEl.appendChild(sec);
+  });
+  emptyEl.classList.toggle("show", nEd===0);
+}
+
+fetch("briefs/index.json")
+  .then(r => { if(!r.ok) throw new Error("feed not found"); return r.json(); })
+  .then(feed => {
+    DATA = feed.editions || [];
+    loadingEl.style.display = "none";
+    const total = DATA.reduce((n,e)=>n+e.items.length,0);
+    document.getElementById("meta-line").textContent =
+      DATA.length + " editions · " + total + " stories · " + fmtRange(DATA.map(e=>e.date)) + ", 2026";
+    render();
+  })
+  .catch(()=>{
+    loadingEl.textContent = "Could not load the archive feed.";
+  });
+
+document.getElementById("q").addEventListener("input", e=>{ query = e.target.value.trim(); render(); });
+document.querySelectorAll(".chip").forEach(c=>c.addEventListener("click", ()=>{
+  document.querySelectorAll(".chip").forEach(x=>x.classList.remove("active"));
+  c.classList.add("active"); section = c.dataset.f; render();
+}));
+</script>
+</body>
+</html>
