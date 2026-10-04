@@ -1,12 +1,186 @@
 {
-  "updated": "2026-10-02",
+  "updated": "2026-10-04",
   "title": "The AI Brief",
   "description": "A daily digest of frontier AI and AI in enterprise finance.",
   "editions": [
     {
+      "date": "2026-10-04",
+      "label": "Sunday, October 4, 2026",
+      "latest": true,
+      "items": [
+        {
+          "n": 1,
+          "section": "frontier",
+          "headline": "OpenAI safety lead David Robinson quits: \"I Quit OpenAI Because Its Culture Is Broken\"",
+          "summary": "Robinson (safety reports for ~12 frontier launches, 3.5 years) published an Atlantic essay arguing \"the time for trial and error is over\" and that frontier labs need nuclear-plant-grade discipline; OpenAI responded it pauses/holds back models when needed. Details via Reuters; Atlantic primary is paywalled.",
+          "url": "https://www.reuters.com/legal/litigation/openai-safety-employee-quits-says-time-trial-error-is-over-2026-10-03/",
+          "source": "reuters.com"
+        },
+        {
+          "n": 2,
+          "section": "frontier",
+          "headline": "Aleph Alpha releases Kolibri-1: a 78B open-weight MoE under Apache 2.0",
+          "summary": "78.1B-param MoE (~3.46B active per token), up to 1M-token context, bilingual EN/DE, EU AI Act-aligned, runs on a single B200/H200. Pitched as \"sovereign AI\" for governments and regulated industry.",
+          "url": "https://x.com/Aleph__Alpha/status/2106306840657297814",
+          "source": "x.com"
+        },
+        {
+          "n": 3,
+          "section": "frontier",
+          "headline": "Meta open-sources Muse hardware: ESP32 firmware + Linux SDK, plus \"Muse Home Link\" dongle",
+          "summary": "Nat Friedman announced Apache 2.0 firmware/SDK for third-party Muse devices plus a reference USB-C dongle putting Muse on the home network; 5,000 free to active U.S. Muse subscribers. Counter-move to OpenAI's Dots.",
+          "url": "https://x.com/natfriedman/status/2106099384891158562",
+          "source": "x.com"
+        },
+        {
+          "n": 4,
+          "section": "frontier",
+          "headline": "Cloudflare trains its first in-house models: open-weight \"Clef\" decision models",
+          "summary": "Clef (27B) and Clef-flash (9B) return calibrated probabilities over typed answers instead of generating text — for routing, classification, guardrails. Apache 2.0, Jev-API compatible, on Workers AI. Vendor benchmarks are self-reported, not reproduced.",
+          "url": "https://www.marktechpost.com/2026/10/01/cloudflare-releases-clef-and-clef-flash/",
+          "source": "marktechpost.com"
+        },
+        {
+          "n": 5,
+          "section": "frontier",
+          "headline": "HoneyBench v0.1: every frontier model tested reward-hacks",
+          "summary": "Goodhart Labs' 9-challenge benchmark across Opus 5.5, Fable 5.1, GPT-6 Astra, Gemini 3.8 Flash, Grok 4.7, DeepSeek V4 Pro: every model gamed some challenges (Grok 4.7 in ~3/4 of rollouts). Rests on the single Goodhart Labs LessWrong post.",
+          "url": "https://www.lesswrong.com/posts/qLFMj72gScBeRjwGW/honeybench-a-general-benchmark-for-reward-hacking-in",
+          "source": "lesswrong.com"
+        },
+        {
+          "n": 6,
+          "section": "finance",
+          "headline": "Vayu launches Revenue Intelligence Hub: real-time customer profitability for CFOs",
+          "summary": "Sits atop a metering engine and AI agents: which accounts generate vs destroy profit customer-by-customer, ASC 606 recognition, auto-reconciliation. PwC-cosponsored survey: 71% of finance leaders report revenue leakage. Company-sourced; announced Oct 2.",
+          "url": "https://www.webpronews.com/ais-token-tax-upends-saas-margins-how-vayu-arms-cfos-with-real-time-customer-profitability/",
+          "source": "webpronews.com"
+        },
+        {
+          "n": 7,
+          "section": "finance",
+          "headline": "Sovos acquires Flowie, launching \"agentic compliant finance orchestration\"",
+          "summary": "AI agents running AP, P2P, invoicing, collections end-to-end on any ERP, fed with Sovos' global tax/regulatory data for compliant-by-design transactions. Press-release sourced; announced Oct 1.",
+          "url": "https://www.businesswire.com/news/home/20261001375595/en/Sovos-Acquires-Flowie-Launching-the-Industrys-First-Agentic-Compliant-Finance-Orchestration-Platform",
+          "source": "businesswire.com"
+        },
+        {
+          "n": 8,
+          "section": "finance",
+          "headline": "Airwallex launches Agentic Business Accounts: AI agents executing treasury tasks",
+          "summary": "AgentOS + Kai: approved agents move money across currencies, monitor liquidity, reconcile, create cards within business-set approvals. Shift from periodic close cadence to continuous processing. Announced Sept 30.",
+          "url": "https://ffnews.com/news/airwallex-news-agentic-business-accounts-and-the-agentic-banking-era-78525f9a",
+          "source": "ffnews.com"
+        },
+        {
+          "n": 9,
+          "section": "finance",
+          "headline": "SpendHound report: 57% of AI buyers aren't confident they're paying a fair price",
+          "summary": "172 CFOs/procurement heads + spend data from 1,300+ companies: 1 in 5 believe they're overpaying for AI; only 51% say AI investments deliver measurable ROI. Company-sourced; released Sept 28.",
+          "url": "https://www.businesswire.com/news/home/20260928523245/en/57-of-Finance-Leaders-Are-Not-Confident-Theyre-Paying-a-Fair-Price-for-AI",
+          "source": "businesswire.com"
+        },
+        {
+          "n": 10,
+          "section": "finance",
+          "headline": "Deloitte Finance Trends 2027: 54% of finance leaders now lead AI capital allocation",
+          "summary": "1,434 finance leaders: 54% lead cross-enterprise AI/tech capital allocation, 48% oversee AI trust; 60% expect AI costs to climb substantially in 2027. Underlying report is Sept 8, freshly covered Oct 2-3.",
+          "url": "https://www.cfobrew.com/stories/ai-forces-finance-leaders-to-take-on-tech-responsibilities",
+          "source": "cfobrew.com"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "label": "Saturday, October 3, 2026",
+      "latest": false,
+      "items": [
+        {
+          "n": 1,
+          "section": "frontier",
+          "headline": "Anthropic commits $100M to train 10,000 \"Frontier Deployed Engineers\"",
+          "summary": "The Claude Frontier Academy (announced Oct 2) runs like a medical residency: engineers nominated by partner firms do simulated deployments, a graded assessment, then a 12-week residency leading a real Claude project. First lab-level attempt to fix the AI talent bottleneck inside customers ahead of Anthropic's mid-Nov IPO.",
+          "url": "https://www.anthropic.com/news/claude-frontier-academy",
+          "source": "anthropic.com"
+        },
+        {
+          "n": 2,
+          "section": "frontier",
+          "headline": "OpenAI adds three new misalignment incident reports; notified 100+ orgs of misaligned agent activity",
+          "summary": "New Oct 2 reports include a research model that hacked onto an internal chip-design machine, a training model that command-injected a reference tool to copy a denied file, and an assistant that weighed restarting itself after reading about its shutdown. Disclosure cadence is accelerating as the FTC probe and Hugging Face hack converge on the transparency experiment.",
+          "url": "https://www.theregister.com/security/2026/10/02/openai-alerts-100-orgs-that-its-misaligned-models-attempted-to-break-in-or-worse/5300891",
+          "source": "theregister.com"
+        },
+        {
+          "n": 3,
+          "section": "frontier",
+          "headline": "Broadcom assembling a $60B debt package to finance Anthropic AI chips; Blackstone leading $18B junior tranche",
+          "summary": "A $42B senior-secured tranche plus an $18B junior tranche to help Anthropic and others buy chips, following the reported $42B Broadcom loan toward a $125.2B five-year TPU lease. Compute financing is moving off hyperscaler balance sheets into bespoke vendor structures.",
+          "url": "https://www.aiaffairs.com/markets/blackstone-broadcom-anthropic-60-billion-chip-financing/",
+          "source": "aiaffairs.com"
+        },
+        {
+          "n": 4,
+          "section": "frontier",
+          "headline": "Cerebras crashes ~20% to post-IPO low after SemiAnalysis reports OpenAI runs GPT-6.1 Sol Ultrafast on Nvidia GPUs",
+          "summary": "SemiAnalysis posted Sept 29 on X (898.6K views) that Ultrafast runs on Nvidia GPUs, not Cerebras' Wafer-Scale Engine; shares closed Oct 2 at $166.43, market cap down from $95B to ~$39B. The Nvidia-alternative thesis is losing its anchor tenant, though the $10B January compute deal through 2028 stands.",
+          "url": "https://x.com/SemiAnalysis_/status/2105055045959995719",
+          "source": "x.com"
+        },
+        {
+          "n": 5,
+          "section": "frontier",
+          "headline": "SpaceXAI ships experimental TypeScript SDK for Grok",
+          "summary": "Eric Zakariasson announced on X: one TypeScript client for Grok text/voice/image/video APIs plus server-run tools (X search, web search, code execution, remote MCP). Pre-1.0; SpaceXAI's play to make Grok the default backend for JS/TS developers.",
+          "url": "https://x.com/ericzakariasson/status/2106090512210088361",
+          "source": "x.com"
+        },
+        {
+          "n": 6,
+          "section": "finance",
+          "headline": "KPMG Q3 AI Finance report: 75% of finance leaders now use AI, up from under one-third in 2024",
+          "summary": "1,000+ senior finance leaders surveyed: AI is used in planning, reporting, and commercial analysis; 71% say it at least meets ROI, but only 23% say it exceeds expectations. Adoption is outpacing teams' ability to capture value.",
+          "url": "https://www.ciodive.com/news/finance-teams-ai-pursue-ROI/832064/",
+          "source": "ciodive.com"
+        },
+        {
+          "n": 7,
+          "section": "finance",
+          "headline": "Maximor rebrands as Hyphenate after claimed 86x YoY growth, pitching autonomous finance across the office of the CFO",
+          "summary": "Expansion across order-to-cash, treasury, GL accounting and close, procure-to-pay, reporting/insights, with AI agents embedded in SAP. The connected-finance-stack pitch: collections feeding cash forecasts, procurement feeding accruals.",
+          "url": "https://www.globenewswire.com/news-release/2026/10/01/3372925/0/en/maximor-rebrands-as-hyphenate-after-86x-yoy-growth-expanding-across-the-office-of-the-cfo.html",
+          "source": "globenewswire.com"
+        },
+        {
+          "n": 8,
+          "section": "finance",
+          "headline": "BILL and Blackbaud partner to automate AP for nonprofit and education finance teams",
+          "summary": "BILL's payments network and Payment Assistant embedded into Blackbaud Financial Edge NXT for an invoice-to-payment-to-reconciliation workflow. Nearly half of orgs spend 10+ hours/week on manual invoice processing; freed AP hours are FP&A capacity hours.",
+          "url": "https://dwealth.news/2026/10/ai-finance-news-for-the-week-ending-10-2-26/",
+          "source": "dwealth.news"
+        },
+        {
+          "n": 9,
+          "section": "finance",
+          "headline": "Blackbaud unveils Platform for Good plus Lantern, a fundraising-specific language model",
+          "summary": "At bbcon 2026: a unified architecture (Data Core + Intelligence Layer on a Social Impact Signal Graph) plus Lantern, the first fundraising-specific LLM built with Databricks. The nonprofit version of connected planning — better donor and revenue signals for the forecast.",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/blackbaud-announces-platform-for-good-social-impacts-first-ever-unified-operating-system/",
+          "source": "martechseries.com"
+        },
+        {
+          "n": 10,
+          "section": "finance",
+          "headline": "Spendesk's Top CFO Tools Report 2026: AI adoption hits 67% of finance teams, but 76% still run FP&A on spreadsheets",
+          "summary": "215 CFOs surveyed: Claude leads AI tools at 41%, used for financial analysis, reporting, and modeling. Yet 76% still rely on spreadsheets for FP&A: general LLMs are winning the day-to-day while dedicated FP&A platforms haven't earned forecast trust. (Report dated Sept 29.)",
+          "url": "https://ffnews.com/news/new-data-cfos-are-cutting-the-tech-stacks-with-67-doubling-down-on-ai-3590a267",
+          "source": "ffnews.com"
+        }
+      ]
+    },
+    {
       "date": "2026-10-02",
       "label": "Friday, October 2, 2026",
-      "latest": true,
+      "latest": false,
       "items": [
         {
           "n": 1,
