@@ -39,6 +39,12 @@
     padding:8px 16px; font-size:13.5px; cursor:pointer; color:var(--muted); transition:all .15s;}
   .chip:hover{border-color:var(--ink); color:var(--ink);}
   .chip.active{background:var(--ink); border-color:var(--ink); color:#fff;}
+  .view-toggle{display:flex; border:1px solid var(--line); background:var(--card);
+    border-radius:999px; overflow:hidden;}
+  .view-toggle button{border:0; background:transparent; padding:8px 16px; font-size:13.5px;
+    cursor:pointer; color:var(--muted); transition:all .15s;}
+  .view-toggle button.active{background:var(--ink); color:#fff;}
+  #view-timeline-btn{display:none;}
 
   main{padding:8px 0 60px;}
   .edition{margin-top:36px;}
@@ -69,6 +75,29 @@
     text-decoration:none;}
   a.source:hover{text-decoration:underline;}
 
+  .timeline{position:relative; margin:40px 0 0 6px; padding-left:30px;}
+  .timeline::before{content:""; position:absolute; left:8px; top:10px; bottom:10px; width:2px; background:var(--line);}
+  .tl-node{position:relative; padding-bottom:36px;}
+  .tl-node::before{content:""; position:absolute; left:-27px; top:5px; width:11px; height:11px;
+    border-radius:50%; background:var(--paper); border:2.5px solid var(--accent);}
+  .tl-node.latest-node::before{background:var(--accent);}
+  .tl-date{font-size:11.5px; letter-spacing:.16em; text-transform:uppercase; font-weight:700; color:var(--muted);}
+  .tl-node h2{font-family:Georgia,serif; font-size:21px; font-weight:700; margin:3px 0 4px; display:inline;}
+  .tl-count{font-size:13px; color:var(--muted); margin-left:10px;}
+  .tl-node .badge-latest{margin-left:10px; vertical-align:2px;}
+  .tl-links{margin-top:12px; display:flex; flex-direction:column; gap:8px;}
+  .tl-link{display:block; background:var(--card); border:1px solid var(--line); border-radius:10px;
+    padding:10px 14px; text-decoration:none; color:var(--ink);
+    font-family:Georgia,serif; font-size:15px; line-height:1.4; transition:border-color .15s;}
+  .tl-link:hover{border-color:var(--ink);}
+  .tl-link .tl-src{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Helvetica,Arial,sans-serif;
+    font-size:12px; color:var(--accent); font-weight:600; margin-left:8px; white-space:nowrap;}
+  .tl-rest{display:none;}
+  .tl-node.open .tl-rest{display:flex;}
+  .tl-more{margin-top:4px; background:none; border:0; color:var(--accent); font-size:13.5px;
+    font-weight:600; cursor:pointer; padding:4px 0; text-align:left;}
+  .tl-more:hover{text-decoration:underline;}
+
   .empty{display:none; text-align:center; padding:60px 20px; color:var(--muted);}
   .empty.show{display:block;}
   .empty p.big{font-family:Georgia,serif; font-size:22px; margin-bottom:8px; color:var(--ink);}
@@ -81,6 +110,8 @@
     p.summary, a.source{margin-left:0;}
     .item-top{flex-wrap:wrap;}
     .tag{margin-left:0;}
+    .timeline{padding-left:24px;}
+    .tl-node::before{left:-21px;}
   }
 </style>
 </head>
@@ -105,6 +136,10 @@
       <button class="chip" data-f="frontier">Frontier AI</button>
       <button class="chip" data-f="finance">Finance AI</button>
     </div>
+    <div class="view-toggle">
+      <button class="active" data-v="archive">Archive</button>
+      <button data-v="timeline" id="view-timeline-btn">Timeline</button>
+    </div>
   </div>
 </div>
 
@@ -112,6 +147,7 @@
   <div class="wrap">
     <div class="loading" id="loading">Loading editions…</div>
     <div id="editions"></div>
+    <div id="timeline" class="timeline" style="display:none"></div>
     <div class="empty" id="empty">
       <p class="big">No matches.</p>
       <p>Try a different keyword or section filter.</p>
@@ -127,11 +163,14 @@
 
 <script>
 let DATA = [];
-let query = "", section = "all";
+let query = "", section = "all", view = "archive";
+const TIMELINE_MIN_EDITIONS = 7; /* timeline tab reveals itself once the archive is dense enough */
 const TAG = {frontier:["frontier","Frontier AI"], finance:["finance","Finance AI"]};
 const editionsEl = document.getElementById("editions");
+const tlEl = document.getElementById("timeline");
 const emptyEl = document.getElementById("empty");
 const loadingEl = document.getElementById("loading");
+const esc = s => String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;");
 
 function fmtRange(ds){
   if(!ds.length) return "";
@@ -146,7 +185,7 @@ function matches(it){
   return query.toLowerCase().split(/\s+/).every(w=>hay.includes(w));
 }
 
-function render(){
+function renderArchive(){
   editionsEl.innerHTML = "";
   let nEd = 0, nIt = 0;
   DATA.forEach((ed, ei)=>{
@@ -157,7 +196,7 @@ function render(){
     sec.className = "edition" + ((ei>0 && !query) ? " collapsed" : "");
     const head = document.createElement("div");
     head.className = "edition-head";
-    head.innerHTML = "<h2>"+ed.label+"</h2>" +
+    head.innerHTML = "<h2>"+esc(ed.label)+"</h2>" +
       (ed.latest?'<span class="badge-latest">Latest</span>':"") +
       '<span class="count">'+its.length+' stories</span>' +
       '<span class="toggle">'+((ei>0 && !query)?"Expand ▾":"Collapse ▴")+"</span>";
@@ -179,7 +218,6 @@ function render(){
       const [cls,label] = TAG[it.section];
       const art = document.createElement("article");
       art.className = "item";
-      const esc = s => s.replace(/&/g,"&amp;").replace(/</g,"&lt;");
       art.innerHTML =
         '<div class="item-top"><span class="num">'+it.n+'</span><h3 class="headline">'+esc(it.headline)+'</h3>'+
         '<span class="tag '+cls+'">'+label+'</span></div>'+
@@ -193,6 +231,52 @@ function render(){
   emptyEl.classList.toggle("show", nEd===0);
 }
 
+function renderTimeline(){
+  tlEl.innerHTML = "";
+  let nEd = 0;
+  DATA.forEach(ed=>{
+    const its = ed.items.filter(matches);
+    if(!its.length) return;
+    nEd++;
+    const node = document.createElement("div");
+    node.className = "tl-node" + (ed.latest ? " latest-node" : "");
+    const d = new Date(ed.date+"T12:00:00").toLocaleDateString("en-US",{month:"short",day:"numeric"});
+    const link = it => '<a class="tl-link" href="'+it.url+'" target="_blank" rel="noopener">' +
+      esc(it.headline) + '<span class="tl-src">'+esc(it.source)+' →</span></a>';
+    let html = '<div class="tl-date">'+d+'</div>' +
+      '<h2>'+esc(ed.label)+'</h2>' +
+      (ed.latest ? '<span class="badge-latest">Latest</span>' : "") +
+      '<span class="tl-count">'+its.length+' stories</span>' +
+      '<div class="tl-links">' + its.slice(0,3).map(link).join("");
+    const rest = its.slice(3);
+    if(rest.length){
+      html += '<div class="tl-links tl-rest">' + rest.map(link).join("") + '</div>' +
+        '<button class="tl-more">Show all '+its.length+' stories ▾</button>';
+    }
+    html += '</div>';
+    node.innerHTML = html;
+    const more = node.querySelector(".tl-more");
+    if(more) more.onclick = ()=>{
+      const open = node.classList.toggle("open");
+      more.textContent = open ? "Show less ▴" : "Show all "+its.length+" stories ▾";
+    };
+    tlEl.appendChild(node);
+  });
+  emptyEl.classList.toggle("show", nEd===0);
+}
+
+function render(){
+  if(view === "timeline"){
+    editionsEl.style.display = "none";
+    tlEl.style.display = "block";
+    renderTimeline();
+  } else {
+    tlEl.style.display = "none";
+    editionsEl.style.display = "block";
+    renderArchive();
+  }
+}
+
 fetch("briefs/index.json")
   .then(r => { if(!r.ok) throw new Error("feed not found"); return r.json(); })
   .then(feed => {
@@ -201,6 +285,9 @@ fetch("briefs/index.json")
     const total = DATA.reduce((n,e)=>n+e.items.length,0);
     document.getElementById("meta-line").textContent =
       DATA.length + " editions · " + total + " stories · " + fmtRange(DATA.map(e=>e.date)) + ", 2026";
+    if(DATA.length >= TIMELINE_MIN_EDITIONS){
+      document.getElementById("view-timeline-btn").style.display = "";
+    }
     render();
   })
   .catch(()=>{
@@ -211,6 +298,10 @@ document.getElementById("q").addEventListener("input", e=>{ query = e.target.val
 document.querySelectorAll(".chip").forEach(c=>c.addEventListener("click", ()=>{
   document.querySelectorAll(".chip").forEach(x=>x.classList.remove("active"));
   c.classList.add("active"); section = c.dataset.f; render();
+}));
+document.querySelectorAll(".view-toggle button").forEach(b=>b.addEventListener("click", ()=>{
+  document.querySelectorAll(".view-toggle button").forEach(x=>x.classList.remove("active"));
+  b.classList.add("active"); view = b.dataset.v; render();
 }));
 </script>
 </body>
