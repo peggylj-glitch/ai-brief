@@ -1,12 +1,91 @@
 {
-  "updated": "2026-10-04",
+  "updated": "2026-10-05",
   "title": "The AI Brief",
   "description": "A daily digest of frontier AI and AI in enterprise finance.",
   "editions": [
     {
+      "date": "2026-10-05",
+      "label": "Monday, October 5, 2026",
+      "latest": true,
+      "items": [
+        {
+          "n": 1,
+          "section": "frontier",
+          "headline": "Altman breaks with Anthropic on AI risk philosophy in Politico interview",
+          "summary": "Altman told Politico's Brendan Bordelon OpenAI believes 'the world should accept some bad things happening for the benefits of this technology and people having the agency' — framing the OpenAI-Anthropic split on trading AI risk against benefits. Details via one X post plus an aggregator; the original Politico piece wasn't directly confirmed.",
+          "url": "https://x.com/AndrewCurran_/status/2106867194068082769",
+          "source": "x.com"
+        },
+        {
+          "n": 2,
+          "section": "frontier",
+          "headline": "Google slashes free Gemini app model access; free tier limited to Flash-Lite from Oct 9",
+          "summary": "Free Gemini app users get only Flash-Lite from Oct 9; AI Plus loses the Pro model; Pro requires AI Pro or Ultra. Monetization pressure days after the Gemini 4 Argon launch. Corroborated by an independent Korean AI briefing.",
+          "url": "https://x.com/aibuilderclub_/status/2106700220415492331",
+          "source": "x.com"
+        },
+        {
+          "n": 3,
+          "section": "frontier",
+          "headline": "Artificial Analysis: Gemini 4 Argon posts lowest hallucination rate of any frontier model — but answers fewer questions",
+          "summary": "15% hallucination rate vs 29% Grok 4.7, 45% GPT-6 Astra, 59% Opus 5.5; correct-answer rate 50% vs 66% for Opus 5.5. Sparking debate on abstention as a frontier moat.",
+          "url": "https://x.com/rdominguezibar/status/2107033840145297819",
+          "source": "x.com"
+        },
+        {
+          "n": 4,
+          "section": "frontier",
+          "headline": "Grok 4.7 tops Frontier v4 benchmark, beating GPT-6.1 Sol, Opus 5.5, and GPT-6 Astra at every effort level",
+          "summary": "Verified analyst post (427K views): a notable xAI coding-model win over the newest frontier releases. The benchmark itself isn't independently verified.",
+          "url": "https://x.com/morganlinton/status/2106737322255622550",
+          "source": "x.com"
+        },
+        {
+          "n": 5,
+          "section": "finance",
+          "headline": "Gartner: 55% of CFOs report positive overall AI returns, but 57% can't price individual use cases",
+          "summary": "160 senior finance leaders (Jan-Apr, released Sept 24): data extraction, AP/AR automation, and report creation deliver returns in 9-10 months. Prescription: run a 'kill review' on AI spend before budgets lock. Details via Glenn Hopper's Substack.",
+          "url": "https://glennhopper.substack.com/p/ai-roi-cfo-budget-kill-review",
+          "source": "glennhopper.substack.com"
+        },
+        {
+          "n": 6,
+          "section": "finance",
+          "headline": "Trintech unveils three AI agents for the financial close",
+          "summary": "Data Access, Accruals Intelligence, and Exception Management agents pitched as 'governed AI execution' inside existing controls. Announced Sept 28; company-sourced.",
+          "url": "https://www.unite.ai/trintech-unveils-three-ai-agents-for-the-financial-close/",
+          "source": "unite.ai"
+        },
+        {
+          "n": 7,
+          "section": "finance",
+          "headline": "Corpay expands AI agents in its spend management platform",
+          "summary": "Embedded Insights, AI Voice Assistant, and Accounting Coding agents rolling out this month within existing payment controls. Announced late Sept; company-sourced.",
+          "url": "https://cfotech.co.uk/story/corpay-adds-ai-agents-to-spend-management-platform",
+          "source": "cfotech.co.uk"
+        },
+        {
+          "n": 8,
+          "section": "finance",
+          "headline": "FISCAL puts agentic AI into purchase-to-pay controls at EMPOWER 2026",
+          "summary": "Automated supplier statement reconciliation with agentic supplier emails, plus MCP connectivity to Claude/ChatGPT/Gemini/Copilot. Announced Oct 1; company-sourced.",
+          "url": "https://www.einnews.com/pr_news/945827702/fiscal-shares-latest-ai-innovations-at-empower-2026",
+          "source": "einnews.com"
+        },
+        {
+          "n": 9,
+          "section": "finance",
+          "headline": "OpenAI's tax VP: tax AI profits where they're created — chips now, applications later",
+          "summary": "Stephen Bonovich at Oxford's Centre for Business Taxation: policy should be 'administrable' and target where profits are created. Bloomberg Law; partial paywall.",
+          "url": "https://news.bloomberglaw.com/daily-tax-report-international/tax-ai-where-profits-are-created-openai-executive-says",
+          "source": "news.bloomberglaw.com"
+        }
+      ]
+    },
+    {
       "date": "2026-10-04",
       "label": "Sunday, October 4, 2026",
-      "latest": true,
+      "latest": false,
       "items": [
         {
           "n": 1,
