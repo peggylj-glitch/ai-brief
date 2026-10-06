@@ -1,12 +1,91 @@
 {
-  "updated": "2026-10-05",
+  "updated": "2026-10-06",
   "title": "The AI Brief",
   "description": "A daily digest of frontier AI and AI in enterprise finance.",
   "editions": [
     {
+      "date": "2026-10-06",
+      "label": "Tuesday, October 6, 2026",
+      "latest": true,
+      "items": [
+        {
+          "n": 1,
+          "section": "frontier",
+          "headline": "Reflection AI unveils Beam, its first open-weight frontier model",
+          "summary": "Beam: 501B total / 23B active-parameter sparse MoE for coding and agentic tasks, trained from scratch on 23.8T tokens with 1M-token context. Claims to match Z.ai's GLM-5.2 at a third to a quarter of the inference compute; Apache 2.0 weights due later this month. Efficiency claims are vendor-reported.",
+          "url": "https://x.com/reflection_ai/status/2107186849370247235",
+          "source": "x.com"
+        },
+        {
+          "n": 2,
+          "section": "frontier",
+          "headline": "Mistral CEO teases a new model he says beats Chinese rivals on cyber",
+          "summary": "Arthur Mensch said at the Ai Everything conference in Abu Dhabi (Oct 6) that the model, to be unveiled that day, 'is actually above the Chinese models on certain aspects, including cyber.' The @MistralAI account had no launch post at press time; Mensch posted a single-word 'Excited' teaser on Oct 5. A CEO claim, not a verified benchmark.",
+          "url": "https://x.com/arthurmensch/status/2107196159181639904",
+          "source": "x.com"
+        },
+        {
+          "n": 3,
+          "section": "frontier",
+          "headline": "Cantina releases apex-flash-1, an open-weights model for vulnerability research",
+          "summary": "Open-weights post-train of GLM-5.3-Flash (27B to 1T+ parameter variants) tuned on real vulnerabilities Cantina found and got paid for — claims ~$1M in public bug bounties and top spot on HackerOne's 2026 US business leaderboard. An 'abliterated' variant ships for researchers wanting fewer refusals.",
+          "url": "https://x.com/hrkrshnn/status/2106545457027793177",
+          "source": "x.com"
+        },
+        {
+          "n": 4,
+          "section": "frontier",
+          "headline": "Leaked X subscription tiers bundle Grok + Cursor up to $200/mo",
+          "summary": "Known X leaker @blankspeaker posted a 51-second screen recording showing X testing four 'X Subscription' tiers ($8 Premium to $200/mo Ultra) pooling X, Grok, and Cursor access into one shared AI-usage pool, first month 50% off through Oct 9. Unconfirmed: leaked, single source, terms could change.",
+          "url": "https://x.com/blankspeaker/status/2106542998649704835",
+          "source": "x.com"
+        },
+        {
+          "n": 5,
+          "section": "frontier",
+          "headline": "Z.ai's GLM-5.3 lands on Amazon Bedrock",
+          "summary": "The Chinese open-weights frontier model is now available on Amazon Bedrock for enterprise cloud customers (access limited to eligible customers via account teams). The open-weights distribution fight is moving inside hyperscaler marketplaces.",
+          "url": "https://x.com/Zai_org/status/2107272032073437185",
+          "source": "x.com"
+        },
+        {
+          "n": 6,
+          "section": "finance",
+          "headline": "U.S. Bank CFO survey: agentic AI moves into cash forecasting — adoption 23% to 74% by company size",
+          "summary": "Fall 2026 CFO Insights Report: cash forecasting/liquidity and fraud prevention lead agentic AI use cases; cash-forecasting adoption scales from 23% at $100–250M-revenue companies to 74% above $5B. 72% invest in AI/automation for productivity; 51% say AI tool costs exceeded budget. Company-sourced; released Sept 29.",
+          "url": "https://www.businesswire.com/news/home/20260929120677/en/U.S.-Bank-CFO-Survey-Optimism-Climbing-as-Growth-and-Dealmaking-Gain-Momentum",
+          "source": "businesswire.com"
+        },
+        {
+          "n": 7,
+          "section": "finance",
+          "headline": "Dooap brings agentic AI for accounts payable to Dynamics 365 Finance users",
+          "summary": "Dooap Studio (showcased at Community Summit NA, Oct 11–15): no-code platform letting AP teams design and deploy AI agents for GL coding, PO matching, tax and fraud checks, and vendor communications, with confidence gates and full audit trails. Company-sourced; announced Oct 5.",
+          "url": "https://www.prnewswire.com/news-releases/dooap-brings-agentic-ai-for-accounts-payable-to-community-summit-north-america-2026-302897472.html",
+          "source": "prnewswire.com"
+        },
+        {
+          "n": 8,
+          "section": "finance",
+          "headline": "Wolters Kluwer launches agentic AI tax preparation inside TaxWise, available Oct 5",
+          "summary": "Agentic AI ingests taxpayer documents, classifies and extracts tax data, populates return fields, drafts review-ready returns, and answers natural-language tax questions via integrated CCH research — with transparency and explainability built in. Company-sourced.",
+          "url": "https://www.businesswire.com/news/home/20261005207096/en/Wolters-Kluwer-launches-agentic-tax-preparation-in-TaxWise-helping-tax-preparers-increase-return-preparation-capacity",
+          "source": "businesswire.com"
+        },
+        {
+          "n": 9,
+          "section": "finance",
+          "headline": "Grant Thornton Q3 CFO survey: record profit optimism, 65% rate AI good or excellent",
+          "summary": "80% of ~230 U.S. finance leaders expect net profit growth over the next 12 months — highest in 18 quarters — and 84% say AI ROI meets or exceeds expectations, productivity gains doing the work. Company-sourced; released Sept 24, new to the brief this week.",
+          "url": "https://www.businesswire.com/news/home/20260924641480/en/Grant-Thornton-survey-CFO-profit-optimism-reaches-record-high-despite-economic-uncertainty",
+          "source": "businesswire.com"
+        }
+      ]
+    },
+    {
       "date": "2026-10-05",
       "label": "Monday, October 5, 2026",
-      "latest": true,
+      "latest": false,
       "items": [
         {
           "n": 1,
