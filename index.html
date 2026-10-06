@@ -286,7 +286,7 @@ fetch("briefs/index.json")
     document.getElementById("meta-line").textContent =
       DATA.length + " editions · " + total + " stories · " + fmtRange(DATA.map(e=>e.date)) + ", 2026";
     if(DATA.length >= TIMELINE_MIN_EDITIONS){
-      document.getElementById("view-timeline-btn").style.display = "";
+      document.getElementById("view-timeline-btn").style.display = "inline-block";
     }
     render();
   })
