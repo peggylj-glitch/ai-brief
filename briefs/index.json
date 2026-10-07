@@ -1,12 +1,99 @@
 {
-  "updated": "2026-10-06",
+  "updated": "2026-10-07",
   "title": "The AI Brief",
   "description": "A daily digest of frontier AI and AI in enterprise finance.",
   "editions": [
     {
+      "date": "2026-10-07",
+      "label": "Wednesday, October 7, 2026",
+      "latest": true,
+      "items": [
+        {
+          "n": 1,
+          "section": "frontier",
+          "headline": "Mistral launches Large 4 \"Le Chonk,\" a 1.05T-parameter open-weight flagship",
+          "summary": "Announced Oct 6: natively multimodal MoE (49B active params, 1M-token context, 160+ languages) trained from scratch on 3,800 NVIDIA Grace Blackwell GPUs in Mistral's own EU datacenters. API preview live at $1.36/$4.18 per 1M input/output tokens; open weights end of October. Company-reported: 93% Cybench, 82% CyberGym-E2E, 38 AA Intelligence Index. CEO cyber-superiority claim over Chinese models is vendor-reported.",
+          "url": "https://x.com/MistralAI/status/2107456586813730854",
+          "source": "x.com"
+        },
+        {
+          "n": 2,
+          "section": "frontier",
+          "headline": "Anthropic puts Claude inside Google Workspace in public beta",
+          "summary": "Sidebar add-on for Docs/Sheets/Slides on all paid Claude plans: Claude reads the open file and edits in place, defaulting to approve-each-edit, plus beta connectors to create/edit Google files from Claude chat with sharing permissions respected. Team/Enterprise admins must enable connectors.",
+          "url": "https://x.com/claudeai/status/2107522596845822135",
+          "source": "x.com"
+        },
+        {
+          "n": 3,
+          "section": "frontier",
+          "headline": "Anthropic expands its Cyber Verification Program to three tiers",
+          "summary": "Defense, Red Team, and Specialized Access tiers give vetted security professionals reduced-safeguard access to Claude Mythos 5.1, Opus 5.5, and Sonnet 5.5 — defensive work plus authorized offensive work (pen-testing, red-teaming). Glasswing partners reportedly found 129k+ verified vulns (Apr-Jul 2026), 33k critical/high.",
+          "url": "https://x.com/AnthropicAI/status/2107546569654636883",
+          "source": "x.com"
+        },
+        {
+          "n": 4,
+          "section": "frontier",
+          "headline": "Google's Nano Banana 2.1 image model hits GA",
+          "summary": "Updated image model: better visual design, mask-based editing, subject consistency, up to 14 reference images for multi-image fusion, character consistency across up to 4 characters, 131k context — available now via AI Studio. Specs from docs coverage; no tier-1 press confirmation.",
+          "url": "https://x.com/GoogleAIStudio/status/2107501303890915550",
+          "source": "x.com"
+        },
+        {
+          "n": 5,
+          "section": "frontier",
+          "headline": "Anthropic courts startups: free Claude Team year + $1k API credits",
+          "summary": "Free year of Claude Team (up to 5 premium seats) + $1,000 API credits for qualifying startups (founded in last 5 years or funded in last 2); 'Claude Startup Stack' bundles up to $45,000 in partner benefits. Announced at SF Tech Week Oct 6. No official X post URL found; TechCrunch coverage.",
+          "url": "https://techcrunch.com/2026/10/06/anthropic-gives-startups-a-free-year-of-enterprise-service-and-1000-in-token-credits/",
+          "source": "techcrunch.com"
+        },
+        {
+          "n": 6,
+          "section": "finance",
+          "headline": "Datarails survey: finance teams spend 26% of their week fact-checking AI",
+          "summary": "2026 CFO Sentiments Survey (270 CFOs at $100M+ U.S. companies, published Oct 6): 96% spend 10%+ of their time verifying AI outputs; auditability (75%) and hallucinations (71%) top trust barriers; only 5% trust AI with board-ready reports unreviewed. Yet 53% plan to expand AI licenses and only 3% cut headcount over AI. Vendor-sponsored, independently fielded.",
+          "url": "https://www.prnewswire.com/news-releases/finance-teams-now-spend-a-quarter-of-their-week-fact-checking-ai-new-datarails-survey-finds-302899700.html",
+          "source": "prnewswire.com"
+        },
+        {
+          "n": 7,
+          "section": "finance",
+          "headline": "SpendHound: 57% of finance leaders aren't confident they're paying a fair price for AI",
+          "summary": "AI Spend Report 2026 (172 finance/procurement leaders + spend data from 1,300+ companies, released Sept 28): 19% believe they're overpaying; only 51% see measurable ROI. Finance must budget and negotiate its fastest-growing expense category with no pricing reference points. Vendor-sourced; new to the brief this week.",
+          "url": "https://www.businesswire.com/news/home/20260928523245/en/57-of-Finance-Leaders-Are-Not-Confident-Theyre-Paying-a-Fair-Price-for-AI",
+          "source": "businesswire.com"
+        },
+        {
+          "n": 8,
+          "section": "finance",
+          "headline": "Trintech unveils three AI agents for the financial close",
+          "summary": "Data Access, Accruals Intelligence, and Exception Management agents (Sept 28, Trintech Connect) join Flux and Variance Analysis agents. Pitch: from AI that surfaces insights to AI that executes close work — data prep, accruals, exception resolution — inside existing controls and audit trails. Vendor announcement, multi-outlet corroboration.",
+          "url": "https://www.cpapracticeadvisor.com/2026/09/29/trintech-launches-three-new-ai-agents-to-advance-governed-autonomous-finance/190762/",
+          "source": "cpapracticeadvisor.com"
+        },
+        {
+          "n": 9,
+          "section": "finance",
+          "headline": "Ripple expands GSmart agentic AI across its corporate treasury platform",
+          "summary": "Reported Oct 5: agents for forecasting, liquidity, risk, reconciliation, and reporting on Ripple Treasury (former GTreasury), plus Knowledge Studio policy controls and an 'Ask GSmart' assistant. Company claims 90%+ shorter reporting cycles, 30%+ better forecast accuracy; deterministic engines compute, humans approve. All company-reported.",
+          "url": "https://finainews.com/payments/ripples-agentic-treasury-tool-can-reduce-reporting-cycle-times-by-90/",
+          "source": "finainews.com"
+        },
+        {
+          "n": 10,
+          "section": "finance",
+          "headline": "SAP launches new Joule agents and finance assistants at SAP Connect, GA this month",
+          "summary": "Unveiled Oct 6 as part of the 'Autonomous Suite': finance capabilities include automated revenue recognition, disclosures, and trade compliance; Joule Work live internally with 110,000 employees, SAP claims 20% productivity gains across finance, HR, procurement. Analysts call it fast-following; agents executing inside the system of record is the model that matters. Vendor event; claims unverified.",
+          "url": "https://www.cio.com/article/4231331/sap-advances-its-autonomous-ai-agenda-with-yet-more-joule-assistants-and-agents.html",
+          "source": "cio.com"
+        }
+      ]
+    },
+    {
       "date": "2026-10-06",
       "label": "Tuesday, October 6, 2026",
-      "latest": true,
+      "latest": false,
       "items": [
         {
           "n": 1,
