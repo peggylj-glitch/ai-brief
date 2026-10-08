@@ -1,12 +1,99 @@
 {
-  "updated": "2026-10-07",
+  "updated": "2026-10-08",
   "title": "The AI Brief",
   "description": "A daily digest of frontier AI and AI in enterprise finance.",
   "editions": [
     {
+      "date": "2026-10-08",
+      "label": "Thursday, October 8, 2026",
+      "latest": true,
+      "items": [
+        {
+          "n": 1,
+          "section": "frontier",
+          "headline": "OpenAI, Anthropic, and Google DeepMind confirm weeks of AI-safety coordination",
+          "summary": "OpenAI policy chief Chris Lehane confirmed the three labs have held safety working-group meetings for weeks, focused on shared evaluations, pre-release audits, and third-party testing. A notable break from their usual competitive posture. Some thin outlets claim a formal joint body launched Thursday; The Information's original reporting (Sept 14) confirms only ongoing talks, so treat the 'launch' as unconfirmed.",
+          "url": "https://shorty-news.com/business/openai-google-anthropic-safety-alliance/",
+          "source": "shorty-news.com"
+        },
+        {
+          "n": 2,
+          "section": "frontier",
+          "headline": "OpenAI starts invisible ChatGPT watermarking in the EU with 'textGrain'",
+          "summary": "Announced Oct 5: ChatGPT and Codex output in the EU will carry an invisible watermark rolling out over the coming weeks on all plans, free tier included. API customers can opt in on select models (off by default); OpenAI says textGrain matched or beat Google's SynthID-for-text in testing and plans to open-source it.",
+          "url": "http://dev.to/getpack/invisible-watermark-chatgpt-starts-marking-its-text-in-the-eu-57ed",
+          "source": "dev.to"
+        },
+        {
+          "n": 3,
+          "section": "frontier",
+          "headline": "Google DeepMind releases EmbeddingGemma 2, an open 740M-parameter embedding model",
+          "summary": "Apache 2.0 licensed; maps text, code, images, video, and audio into one shared vector space with 8K-token context and modular text, vision, and audio encoders aimed at on-device use.",
+          "url": "https://sharedsapience.com/century-report/the-century-report-october-7-2026/",
+          "source": "sharedsapience.com"
+        },
+        {
+          "n": 4,
+          "section": "frontier",
+          "headline": "OpenAI publishes 722 math manuscripts produced by an unreleased internal model",
+          "summary": "372 result families posted to GitHub under Apache 2.0, many with Lean formalizations and abridged summaries of the model's reasoning, giving the public a rare look at a frontier system's raw mathematical output.",
+          "url": "https://sharedsapience.com/century-report/the-century-report-october-7-2026/",
+          "source": "sharedsapience.com"
+        },
+        {
+          "n": 5,
+          "section": "frontier",
+          "headline": "Google DeepMind pilots double-blind, cryptographically secured model evaluations",
+          "summary": "A pilot that tests models against confidential exams without either side seeing the other's weights or prompts, treating benchmark access as a security problem as public-test contamination gets worse.",
+          "url": "https://spaisee.com/article/the-ai-benchmark-race-is-moving-behind-closed-doors",
+          "source": "spaisee.com"
+        },
+        {
+          "n": 6,
+          "section": "finance",
+          "headline": "Limelight FP&A Trends: 65% of CFOs raised tech budgets 20%+, but only 28% use AI in forecasting",
+          "summary": "The 2026 FP&A Trends Report flags an investment-deployment gap: budgets are growing while AI forecasting lags, and connected planning is cutting review cycles dramatically (one customer cut budget review from 30 hours to one, saving $400k).",
+          "url": "https://markets.financialcontent.com/kelownadailycourier/article/accwirecq-2026-8-5-limelights-2026-fp-and-a-trends-report-finds-65-of-cfos-raised-tech-budgets-by-20-yet-just-28-use-ai-in-forecasting",
+          "source": "markets.financialcontent.com"
+        },
+        {
+          "n": 7,
+          "section": "finance",
+          "headline": "Auditoria expands autonomous Cash Cycle agents for Workday finance customers",
+          "summary": "Agentic AP and AR operations with finance-led governance policies; the company says it is approaching $50B in annual agentic transaction processing across 20k+ finance professionals, and will showcase the expanded stack at Workday Rising (Oct 12-15).",
+          "url": "https://www.auditoria.ai/news-and-press/auditoria-expands-governed-cash-cycle-autonomy-for-workday-finance-customers/",
+          "source": "auditoria.ai"
+        },
+        {
+          "n": 8,
+          "section": "finance",
+          "headline": "Salesforce CFO Priorities Report: 89% of finance AI users report ROI, but adoption stays cautious",
+          "summary": "Double-blind survey of 865 finance leaders: managing AI is the biggest reason CFO roles expanded this year, 69% now manage multiple revenue models, with security, governance, and cost named as top blockers.",
+          "url": "https://www.salesforce.com/uk/news/stories/cfos-ai-agents-to-tame-revenue-complexity/",
+          "source": "salesforce.com"
+        },
+        {
+          "n": 9,
+          "section": "finance",
+          "headline": "Sixthfin: 67% of UK CFOs rank account reliability above close speed; 84% trust AI for repetitive accounting",
+          "summary": "Survey of 303 UK CFOs finds deadlines stress 96% of teams, and finance leaders want automation of controls and full-population analysis rather than faster-but-shakier closes.",
+          "url": "https://www.globenewswire.com/news-release/2026/10/05/3374957/0/en/financial-close-automation-enters-a-new-phase-67-of-uk-cfos-prioritise-account-reliability-over-speed-sixthfin-research-finds.html",
+          "source": "globenewswire.com"
+        },
+        {
+          "n": 10,
+          "section": "finance",
+          "headline": "Half of public finance leaders now use AI daily or weekly",
+          "summary": "HilltopSecurities' 2026 survey of municipal finance leaders (cities, counties, school districts, utilities): AI adoption rose from last year, while labor/staffing and budget/pension remain the top challenges for the third straight year.",
+          "url": "https://www.businesswire.com/news/home/20261007522364/en/Public-Finance-Leaders-Embrace-Innovation-While-Capacity-Constraints-Persist-2026-HilltopSecurities-Survey-Finds",
+          "source": "businesswire.com"
+        }
+      ]
+    },
+    {
       "date": "2026-10-07",
       "label": "Wednesday, October 7, 2026",
-      "latest": true,
+      "latest": false,
       "items": [
         {
           "n": 1,
