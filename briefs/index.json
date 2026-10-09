@@ -1,12 +1,91 @@
 {
-  "updated": "2026-10-08",
+  "updated": "2026-10-09",
   "title": "The AI Brief",
   "description": "A daily digest of frontier AI and AI in enterprise finance.",
   "editions": [
     {
+      "date": "2026-10-09",
+      "label": "Friday, October 9, 2026",
+      "latest": true,
+      "items": [
+        {
+          "n": 1,
+          "section": "frontier",
+          "headline": "Google Cloud launches Gemini, a universal agent for enterprise work",
+          "summary": "Announced Oct 8 at Gemini at Work 2026 by CEO Thomas Kurian (1:19 PM, 1.3M views): one agent that plans, uses skills/tools, connects to business systems, and returns finished work inside Gmail, Docs, dev tools and more, running on Gemini and Anthropic's Claude models in private preview. A policy written once applies to every agent company-wide; each agent gets its own identity, mailbox, audit trail and spend caps; model routing controls cost. A third universal-agent pole alongside Anthropic's Claude Cowork/Code and OpenAI's ChatGPT Work. @ThomasOrTK post read directly via live browser; unite.ai and Neowin corroborated.",
+          "url": "https://x.com/ThomasOrTK/status/2108245829530325307",
+          "source": "x.com"
+        },
+        {
+          "n": 2,
+          "section": "frontier",
+          "headline": "OpenAI dumps 722 math manuscripts, sparking the \"mathpocalypse\" debate",
+          "summary": "Oct 6 (@OpenAI post, 6:19 PM, 21.8M views): broad range of new math results produced by an internal frontier model, linked to GitHub, with IAS Advisory Group consulted on the release. Press coverage: 722 manuscripts in 372 'families' of claimed results (quasi-Riemann hypothesis, Unique Games Conjecture, 9/4 matrix-multiplication exponent), ~3 hours compute each; only 162 of 722 have Lean proofs. Alex Kontorovich called the headline result an 'instant Fields Medal' if human-done; 25 Fields Medalists including Terence Tao signed a declaration urging mathematicians to stop working with OpenAI. Verification open. Official post read via live browser; counts/reaction from multi-outlet coverage.",
+          "url": "https://x.com/OpenAI/status/2107596713791767021",
+          "source": "x.com"
+        },
+        {
+          "n": 3,
+          "section": "frontier",
+          "headline": "White House secures $2.4B in AI pledges for the Genesis Mission",
+          "summary": "Announced Oct 8 at the 'Science: A New Golden Age' summit: eleven companies pledged $2.4B in 'SI for science' tools and compute credits to the federal AI-for-science program across 15+ agencies. Nvidia leads with $1B (42% of the total, over 5 years), AMD $500M, OpenAI $200M, Anthropic and Google $150M each, AMP and Emerald AI $100M each, AWS/Armada/Crusoe/Micron $50M each. In-kind credits over years, not cash; DOE separately awarded $159M across 12 Phase II science projects. White House fact sheet; corroborated by Nextgov, Bloomberg Law, Unite.AI.",
+          "url": "https://www.unite.ai/crusoe-commits-ai-compute-credits-to-white-house-genesis-mission/",
+          "source": "unite.ai"
+        },
+        {
+          "n": 4,
+          "section": "frontier",
+          "headline": "Meta and Microsoft steer staff off Claude toward in-house AI",
+          "summary": "The Information reported Oct 5 (widely covered this week): Microsoft cut its projected internal Anthropic bill (at least $1B/year) by over a third, slashing per-employee monthly AI budgets from $100,000 to ~$10,000 in its cloud/AI unit and steering engineers to GitHub Copilot. Meta halved internal Claude Code users from ~60,000 to ~30,000, pushing MetaCode (30,000+ internal users) and Muse Code instead, while still spending over $105M on Claude Code in a 28-day window. Both remain big external resellers of Claude. Read as cost discipline plus dogfooding plus data governance. The Information via PYMNTS; multi-outlet corroboration.",
+          "url": "https://www.pymnts.com/news/artificial-intelligence/2026/microsoft-meta-steer-staff-from-anthropic-claude-in-house-ai/",
+          "source": "pymnts.com"
+        },
+        {
+          "n": 5,
+          "section": "frontier",
+          "headline": "Anthropic updates usage policy to ban sustained cruelty toward Claude",
+          "summary": "Oct 8 (flagged by @wongmjane, 2:40 PM, 878K views; The Verge via MacRumors reports the policy is live): prohibits 'sustained and needless abusive or cruel behavior toward our models,' targeting extreme cases of users repeatedly acting cruelly with no discernible purpose. Ordinary frustration, pushback, dark creative themes and model testing explicitly not covered. Claude already ends persistently abusive chats as its main enforcement tool. Another step in Anthropic's model-welfare arc. Post read directly via live browser.",
+          "url": "https://x.com/wongmjane/status/2108266310492917916",
+          "source": "x.com"
+        },
+        {
+          "n": 6,
+          "section": "finance",
+          "headline": "Varney & Associates replaces 20 years of engagement software with Fieldguide agentic audit platform",
+          "summary": "Announced Oct 8: the Kansas CPA firm (2,500+ clients, est. 1959) selected Fieldguide as engagement partner across audit and attest, tax, and client accounting; audit practice migrates by end of 2026, tax by post-2027-season. Field Agents run across the engagement lifecycle with full human oversight; the platform enforces the firm's own audit methodology with end-to-end traceability. Fieldguide claims 8 of the top 10 global firms. Mid-market firms modernizing on their own terms: agentic audit is no longer a Big 4-only story. Vendor announcement.",
+          "url": "https://www.globenewswire.com/news-release/2026/10/08/3377301/0/en/varney-associates-selects-fieldguide-as-strategic-ai-partner-across-its-entire-audit-and-advisory-practice.html",
+          "source": "globenewswire.com"
+        },
+        {
+          "n": 7,
+          "section": "finance",
+          "headline": "PKF O'Connor Davies adopts Caseware's AI-enabled audit suite, joins Agentic Pioneer Program",
+          "summary": "Announced Oct 8: the top-25 U.S. accounting firm adopted Caseware's Dynamic Assurance Solution (DAS) Suite powered by Caseware Verity across its audit practice, and joined the Caseware Agentic Pioneer Program to co-develop proprietary AI agents on Caseware's governed platform. The DAS Suite pairs a risk-based methodology (built with the AICPA) with embedded AI, plus Caseware IDEA for full-population testing and anomaly detection. Two major firm-wide AI audit moves on the same day: the race is now about who gets proprietary agents, not just who licenses them. Vendor announcement.",
+          "url": "https://www.financialcontent.com/article/gnwcq-2026-10-8-pkf-oconnor-davies-adopts-ai-enabled-das-suite-powered-by-caseware-verity-and-joins-the-caseware-agentic-pioneer-program",
+          "source": "financialcontent.com"
+        },
+        {
+          "n": 8,
+          "section": "finance",
+          "headline": "67% of UK CFOs prioritize close reliability over speed; 84% trust AI with repetitive accounting",
+          "summary": "Sixthfin report on accounting transformation (303 UK CFOs via Odoxa, published Oct 5): deadlines stress teams at 96% of companies, but the top close priority is reliability of accounts, not speed. Only 42% describe their close management as very satisfactory. The FP&A-adjacent read: AI trust is high for grunt work (84% trust it for repetitive, time-consuming tasks) but the payoff metric is trustworthiness, not minutes saved. Company-sponsored research.",
+          "url": "https://www.globenewswire.com/news-release/2026/10/05/3374957/0/en/financial-close-automation-enters-a-new-phase-67-of-uk-cfos-prioritise-account-reliability-over-speed-sixthfin-research-finds.html",
+          "source": "globenewswire.com"
+        },
+        {
+          "n": 9,
+          "section": "finance",
+          "headline": "SAS launches AI Navigator governance suite, GA on Microsoft Marketplace",
+          "summary": "Published Oct 8, GA'd Oct 5: the governance suite inventories an enterprise's entire AI estate, maps models and agents to business use cases, applies internal policies and external regulations to AI tools, flags governance risk and alerts when risk is uncovered, with prebuilt policy packs from SAS partners. SAS/IDC claim organizations that trust their AI tools are 15x more likely to get strong ROI. Constellation Research's caution: it gives a central view of the estate, not fine-grained control over AI applications. Vendor launch; independent analyst quoted.",
+          "url": "https://www.techtarget.com/data-technologies/news/366652036/SAS-launches-new-governance-suite-to-bolster-customer-trust-in-AI",
+          "source": "techtarget.com"
+        }
+      ]
+    },
+    {
       "date": "2026-10-08",
       "label": "Thursday, October 8, 2026",
-      "latest": true,
+      "latest": false,
       "items": [
         {
           "n": 1,
