@@ -1,12 +1,99 @@
 {
-  "updated": "2026-10-15",
+  "updated": "2026-10-16",
   "title": "The AI Brief",
   "description": "A daily digest of frontier AI and AI in enterprise finance.",
   "editions": [
     {
+      "date": "2026-10-16",
+      "label": "Friday, October 16, 2026",
+      "latest": true,
+      "items": [
+        {
+          "n": 1,
+          "section": "frontier",
+          "headline": "Meta releases Muse Spark Open, an 816B-parameter open-weight model that runs on two Mac Studios",
+          "summary": "Meta Superintelligence Labs released Muse Spark Open weights (816B total / 42B active MoE, 1M-token context, multimodal in), calling it the most capable US open-weight model to date; Zuckerberg demoed it on two Apple M5 Ultra Mac Studios via MLX. Day-one distribution across 7 inference providers plus Hugging Face, SageMaker, Google and Microsoft is a developer land grab against Chinese open labs. Post read directly via live browser.",
+          "url": "https://x.com/AIatMeta/status/2110779754274292212",
+          "source": "x.com"
+        },
+        {
+          "n": 2,
+          "section": "frontier",
+          "headline": "OpenAI rolls GPT-Live-1.1 into ChatGPT Voice with new voices in six languages",
+          "summary": "GPT-Live-1.1 (plus smaller Quip for Free/Go) powers Live voice with more natural accents and new voices for French, German, Hindi, Japanese, Korean and Mexican Spanish plus English Bubbie; also reaches Voice in Codex and dots. Caps: Plus 3h, Pro 15h on $100 plan / unlimited on $200; API promised, no date or price yet. Post read directly via live browser.",
+          "url": "https://x.com/OpenAI/status/2110797830361436604",
+          "source": "x.com"
+        },
+        {
+          "n": 3,
+          "section": "frontier",
+          "headline": "Anthropic gives METR employee-level access in a new three-tier external evaluator framework",
+          "summary": "Six nonprofit METR researchers get Anthropic hardware, office space and internal-system access roughly equivalent to risk teams, and can publish without prior approval (limited redactions). SecureBio reviews the August risk report; Accenture's Faculty unit handles broader adversarial testing. Follows Reuters reporting the labs had sought control over evaluator publishing.",
+          "url": "https://cryptobriefing.com/anthropic-metr-securebio-ai-safety-evaluation/",
+          "source": "cryptobriefing.com"
+        },
+        {
+          "n": 4,
+          "section": "frontier",
+          "headline": "Liquid AI ships two open models in 48 hours as October's open-weight launch wave hits 22",
+          "summary": "LFM2.5-24B-A2B (24B total, 2B active) beats Qwen3.6-35B-A3B on tool use while trailing on SWE-Bench Verified; decision-focused d1-ultra followed. Same Oct 15 window: NVIDIA Nemotron 3.5 Super VL 120B and six Jais 3 variants from UAE's IMI. BenchLM counts 22 confirmed October launches: the open race is fragmenting into specialists.",
+          "url": "https://tech-insider.org/liquid-ai-lfm2-5-24b-a2b-launch-2026/",
+          "source": "tech-insider.org"
+        },
+        {
+          "n": 5,
+          "section": "frontier",
+          "headline": "ByteDance's Seed AI lab reportedly creates a dedicated alignment and preparedness unit",
+          "summary": "A new Seed Model-Alignment and Preparedness department would own model-behavior specs, safety evals, alignment training and keeping agents within human intentions and authorized limits, with plans for closer work with external research institutions. Single-source reporting so far, unconfirmed by the company.",
+          "url": "https://www.linkedin.com/pulse/ai-news-brief-friday-16-october-2026-ist-muralidhar-rao-lnnhc",
+          "source": "linkedin.com"
+        },
+        {
+          "n": 6,
+          "section": "finance",
+          "headline": "Tipalti: finance AI adoption tripled to 46%, yet 86% of professionals face rising workloads",
+          "summary": "2026 Global Finance Outlook Index (2,100+ finance pros, released Oct 15): fully automated AP operations quadrupled 7% to 31% since 2025; AI tool/agent adoption jumped 14% to 46%; but 86% report increasing workloads and only 23% feel very prepared for international growth complexity. Trust, security and control are the binding constraints.",
+          "url": "https://www.businesswire.com/news/home/20261015369794/en/Tipaltis-2026-Global-Finance-Outlook-Index-Reveals-AI-Adoption-Has-Tripled-Yet-Finance-Teams-Remain-Unprepared-for-Global-Complexity",
+          "source": "businesswire.com"
+        },
+        {
+          "n": 7,
+          "section": "finance",
+          "headline": "AICPA issues 51-page practice aid on AI in financial reporting and auditing",
+          "summary": "Oct 13 guidance, years in the making, helps CPAs evaluate AI's effect on audits: how companies use AI in financial reporting and controls, and how auditors themselves use AI tools. CFOs should read it since it governs how their audited information gets scrutinized; the sector's Washington regulator is weighing its own guidance.",
+          "url": "https://www.cfodive.com/news/aicpa-issues-guidance-ai-assisted-auditing/832907/",
+          "source": "cfodive.com"
+        },
+        {
+          "n": 8,
+          "section": "finance",
+          "headline": "Intuit to acquire Sequence for AI-native revenue management",
+          "summary": "Oct 15: Sequence automates revenue management from contract pricing through payment collection and revenue recognition, plugging into Intuit Enterprise Suite and QuickBooks Online Advanced. Terms undisclosed; targets mid-market businesses and professional services firms dealing with usage-based and hybrid pricing.",
+          "url": "https://skn-finance.com/skn-intuit-acquires-sequence-to-expand-ai-powered-revenue-management-capabilities/",
+          "source": "skn-finance.com"
+        },
+        {
+          "n": 9,
+          "section": "finance",
+          "headline": "Datarails launches Spend, tying every dollar to the live financial plan",
+          "summary": "Oct 15: the AI finance platform's new spend product starts from the budget, not the purchase, connecting requests, POs, contracts, invoices, cards and payments in one place; invoices auto-captured, coded and matched, budget owners see impact before approval. Closes the plan-vs-spend loop that leaves teams reconciling in arrears.",
+          "url": "https://www.prnewswire.com/news-releases/datarails-launches-spend-management-product-to-tie-every-dollar-back-to-the-financial-plan-302909700.html",
+          "source": "prnewswire.com"
+        },
+        {
+          "n": 10,
+          "section": "finance",
+          "headline": "Quadient launches an AR email agent that reads customer correspondence and prepares actions",
+          "summary": "Oct 14: the agent triages incoming customer emails, classifies payment commitments, invoice questions and disputes, and drafts actions inside the AR platform, with human reviewers and audit trails in place. Extends Quadient's AI-native approach across AR, AP and customer communications, attacking the inbox bottleneck in collections.",
+          "url": "https://www.globenewswire.com/news-release/2026/10/14/3380345/0/en/quadient-expands-agentic-ai-to-accounts-receivable-turning-customer-emails-into-action.html",
+          "source": "globenewswire.com"
+        }
+      ]
+    },
+    {
       "date": "2026-10-15",
       "label": "Thursday, October 15, 2026",
-      "latest": true,
+      "latest": false,
       "items": [
         {
           "n": 1,
