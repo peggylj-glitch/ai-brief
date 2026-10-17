@@ -1,12 +1,91 @@
 {
-  "updated": "2026-10-16",
+  "updated": "2026-10-17",
   "title": "The AI Brief",
   "description": "A daily digest of frontier AI and AI in enterprise finance.",
   "editions": [
     {
+      "date": "2026-10-17",
+      "label": "Saturday, October 17, 2026",
+      "latest": true,
+      "items": [
+        {
+          "n": 1,
+          "section": "frontier",
+          "headline": "Anthropic's Claude Mythos 5 designs quantum circuits that beat the best published designs",
+          "summary": "Oct 16: in a closed generator-evaluator loop with minimal human input, Mythos 5 improved on the best previously published quantum circuits on 7 of 8 computational primitives, in one case using 17x fewer Toffoli gates; designs validated with formal Lean proofs, with a 46-page paper submitted to arXiv. A checkable AI-for-science win showing autonomous engineering design. Web coverage; no X post located.",
+          "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
+          "source": "anthropic.com"
+        },
+        {
+          "n": 2,
+          "section": "frontier",
+          "headline": "Reflection AI drops Beam open weights under Apache 2.0 with 40+ day-zero integrations",
+          "summary": "Oct 16: the 501B-parameter MoE (23B active), pretrained on 23.8T tokens, is now on Hugging Face with final benchmarks (80.9% SWE-bench Verified, 97.8% AIME 2026), a safety technical report and a free first-party API beta; Reflection also open-sourced Mirror CLI. One of the largest fully open US releases, pitched as the Western efficiency answer to Kimi K3 and GLM-5.3. Web coverage; no X post located.",
+          "url": "https://www.unite.ai/reflection-releases-beams-open-weights-under-apache-2-0-license/",
+          "source": "unite.ai"
+        },
+        {
+          "n": 3,
+          "section": "frontier",
+          "headline": "Anthropic cuts Claude Code first-token latency nearly 3x",
+          "summary": "Oct 16 (@ClaudeDevs, 665K views): first-token wait fell ~3x in Claude Code local sessions (4.07s to 1.33s) and 2.8x in cloud sessions (16.99s to 6s) from August to October; Claude Code now gzips the conversation each turn and cloud sessions start as you type. Chat/Cowork and the API each improved ~1.5x. Post read directly via live browser.",
+          "url": "https://x.com/ClaudeDevs/status/2111209208012210409",
+          "source": "x.com"
+        },
+        {
+          "n": 4,
+          "section": "frontier",
+          "headline": "Kling AI launches Kling 4.0 globally",
+          "summary": "Oct 16: 30 seconds of video in a single pass from up to 15 reference assets and 10 keyframes, 10-bit HDR at 4K and 21:9 ultrawide, with agent access via Kling MCP and CLI plus a Flash variant; company claims 100M+ users and 50,000+ enterprise customers. Pushes AI video toward professional-grade long-form production. Web coverage; no X post located.",
+          "url": "https://www.globenewswire.com/news-release/2026/10/16/3382484/0/en/kling-ai-launches-kling-4-0-globally-with-professional-grade-output-stable-motion-and-multimodal-control.html",
+          "source": "globenewswire.com"
+        },
+        {
+          "n": 5,
+          "section": "frontier",
+          "headline": "Anthropic quietly pitches its own AI safety bill to US lawmakers",
+          "summary": "Reported Oct 16/17 (Politico via Reuters): the draft frontier-AI bill would let the government block a model release/use only on foreseeable imminent risk of over $1B in damages or 50+ deaths/serious injuries, mandate frontier-model testing and transparency, and require Commerce-registered evaluators to report imminent risks within 72 hours. Single-source, unconfirmed by Anthropic.",
+          "url": "https://www.thehindubusinessline.com/info-tech/anthropic-quietly-pitches-its-own-ai-safety-bill-to-lawmakers-politico-reports/article71595297.ece",
+          "source": "thehindubusinessline.com"
+        },
+        {
+          "n": 6,
+          "section": "finance",
+          "headline": "Ramp raises $1.85B at $60B valuation as it pushes deeper into AI",
+          "summary": "Oct 15: four months after a $750M raise at $44B, annualized revenue crossed $2B with 85,000 customers and $275B in purchase volume. AI agents embedded across procurement, expense, accounting and budgeting; launched a corporate card for AI agents and AI-token spend monitoring, with an investor saying Ramp aims to compete with Anthropic on managing enterprise AI spend.",
+          "url": "https://techcrunch.com/2026/10/15/ramp-reaches-60b-valuation-as-it-pushes-deeper-into-ai/",
+          "source": "techcrunch.com"
+        },
+        {
+          "n": 7,
+          "section": "finance",
+          "headline": "Tungsten debuts Pay+, an invoice-aware payment orchestration layer",
+          "summary": "Oct 15: folds AP and payments into one workflow where each payment is driven by underlying invoice data (supplier, terms, relationship history, risk profile), automating pay-run creation, execution and reconciliation from one control panel. Turns every payment into a working-capital decision with controls kept in place.",
+          "url": "https://www.pymnts.com/news/b2b-payments/2026/tungsten-debuts-pay-payment-orchestration-solution/",
+          "source": "pymnts.com"
+        },
+        {
+          "n": 8,
+          "section": "finance",
+          "headline": "Workday pitches autopilot agents as a bid for payroll and services spend",
+          "summary": "Oct 16 (Workday Rising coverage): chief AI officer Joel Hellermark argued automating routine HR/finance work lets Workday expand beyond software budgets into labor and services spend; autopilot agents act continuously in the background, with Payroll, Accounting and Deployment agents due early 2027 under customer-defined controls.",
+          "url": "https://www.webpronews.com/workdays-ai-agents-target-payroll-dollars-once-spent-on-people/",
+          "source": "webpronews.com"
+        },
+        {
+          "n": 9,
+          "section": "finance",
+          "headline": "LeadSquared's CFO on building an AI-ready real-time finance engine",
+          "summary": "Oct 16 (Inc42 interview): CFO Chandra Sahal says the trigger for upgrading finance tech is complexity (multiple entities, products, geographies), argues for an integrated stack connecting ERP, CRM, order-to-cash and analytics, and says the CFO role now demands acting as a strategic business partner, not just reporting numbers.",
+          "url": "https://inc42.com/features/how-leadsquareds-chandra-sahal-is-turning-finance-into-a-real-time-decision-engine/",
+          "source": "inc42.com"
+        }
+      ]
+    },
+    {
       "date": "2026-10-16",
       "label": "Friday, October 16, 2026",
-      "latest": true,
+      "latest": false,
       "items": [
         {
           "n": 1,
