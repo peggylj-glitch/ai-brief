@@ -72,6 +72,26 @@
       .dateline b{color:var(--ink);font-weight:600}
       .dateline .spacer{flex:1}
 
+      /* ---------- back to main ---------- */
+      .backnav{padding:20px 0 0}
+      .backnav a{
+        display:inline-flex;align-items:center;gap:8px;
+        font-family:"IBM Plex Mono",monospace;font-size:12.5px;font-weight:600;
+        letter-spacing:.07em;text-transform:uppercase;
+        color:var(--ink-soft);text-decoration:none;
+        border:1px solid var(--rule);background:var(--card);
+        padding:8px 14px 8px 12px;border-radius:999px;
+      }
+      .backnav a:hover{color:var(--accent);border-color:var(--accent)}
+      .backnav a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+      .backnav a .arr{font-size:15px;line-height:1;text-transform:none;letter-spacing:0}
+      .backfoot{margin-top:18px}
+      .backfoot a{
+        font-family:"IBM Plex Mono",monospace;font-size:12.5px;font-weight:600;
+        letter-spacing:.07em;text-transform:uppercase;color:var(--ink-soft);
+      }
+      .backfoot a:hover{color:var(--accent)}
+
       /* ---------- thesis hero ---------- */
       .hero{padding:34px 0 8px;border-bottom:1px solid var(--rule)}
       .hero .kicker{
@@ -272,6 +292,10 @@
   </head>
   <body>
     <div class="wrap">
+
+      <nav class="backnav" aria-label="Back to main page">
+        <a href="https://peggylj-glitch.github.io/ai-brief/"><span class="arr" aria-hidden="true">&larr;</span> Back to The AI Brief</a>
+      </nav>
 
       <div class="dateline">
         <span><b>The Month in AI</b></span>
@@ -605,6 +629,7 @@
           a story can count toward more than one theme, and survey figures are as reported in the editions that
           cited them. The Exponential Time Hypothesis item rests on unreviewed claims, as noted in the Oct 28 edition.
         </p>
+        <p class="backfoot"><a href="https://peggylj-glitch.github.io/ai-brief/">&larr; Back to The AI Brief &mdash; main page</a></p>
       </footer>
     </div>
 
