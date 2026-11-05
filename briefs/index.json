@@ -1,12 +1,99 @@
 {
-  "updated": "2026-11-04",
+  "updated": "2026-11-05",
   "title": "The AI Brief",
   "description": "A daily digest of frontier AI and AI in enterprise finance.",
   "editions": [
     {
+      "date": "2026-11-05",
+      "label": "Thursday, November 5, 2026",
+      "latest": true,
+      "items": [
+        {
+          "n": 1,
+          "section": "frontier",
+          "headline": "OpenAI ships ChatGPT Images 2.6 with GIFs and reference images",
+          "summary": "Images 2.6 renders 50% faster, generates looping animated GIFs in chat, and adds reusable reference images; two new API models, gpt-image-2.6-flare and gpt-image-2.6-sunburst, add region editing and SVG output.",
+          "url": "https://x.com/OpenAI/status/2118124944928432327",
+          "source": "x.com"
+        },
+        {
+          "n": 2,
+          "section": "frontier",
+          "headline": "Moonshot releases Kimi K3.1 Pro open weights",
+          "summary": "The 2.8T-parameter MoE model (104B active, 1M-token context) is now downloadable on Hugging Face, fulfilling the Nov 4 weight-drop promise; Moonshot stripped cyber-related training data from the open release.",
+          "url": "https://x.com/Kimi_Moonshot/status/2118010528123773297",
+          "source": "x.com"
+        },
+        {
+          "n": 3,
+          "section": "frontier",
+          "headline": "Claude maps the first 3D vault structure from bacterial life",
+          "summary": "Anthropic's biology team used Claude to find and solve the first atomic-scale cryo-EM structure of a vault particle outside eukaryotes, a 96-copy phage protein cage, in days rather than weeks to months; the team also documented Claude's wet-lab mistakes.",
+          "url": "https://x.com/AnthropicAI/status/2118073665296228863",
+          "source": "x.com"
+        },
+        {
+          "n": 4,
+          "section": "frontier",
+          "headline": "Cognition launches SWE-2 Flash, a fast coding model",
+          "summary": "Built on Thinking Machines' Inkling-Small base, SWE-2 Flash streams roughly 200 tokens per second and runs 3x faster than flagship SWE-2 at a fifth of the price, free in Devin through Nov 30; Cognition is withholding open weights and offering vetted access instead.",
+          "url": "https://x.com/cognition/status/2118069614521241739",
+          "source": "x.com"
+        },
+        {
+          "n": 5,
+          "section": "frontier",
+          "headline": "Claude Code subagent status updates now cost about 99% less",
+          "summary": "Background subagents used to re-read their whole conversation every 30 seconds just to write a status line; Haiku 5.5 now writes it from short notes instead, fixing a token drain developers had measured at 15-20% of Claude Code spend.",
+          "url": "https://x.com/ClaudeDevs/status/2118063143167693011",
+          "source": "x.com"
+        },
+        {
+          "n": 6,
+          "section": "finance",
+          "headline": "FloQast and PwC UK pair autonomous accounting with managed finance services",
+          "summary": "The expanded partnership combines FloQast's AI-powered close platform with PwC's Finance Managed Services to offer outsourced month-end close, reconciliations and compliance in the UK, aimed at CFOs facing accounting talent shortages.",
+          "url": "https://financechief.com/news/floqast-and-pwc-partner-to-expand-finance-services-with-ai",
+          "source": "financechief.com"
+        },
+        {
+          "n": 7,
+          "section": "finance",
+          "headline": "Every Man Jack's CFO aims to eliminate every manual click by 2026",
+          "summary": "With a five-person finance team and tripled transaction volume, CFO Steve Fox runs an agent-led finance function on NetSuite, with command centres for order-to-cash, procure-to-pay and the monthly close where staff review only exceptions the AI couldn't resolve.",
+          "url": "https://cfomagazine.com.au/every-man-jacks-cfo-wants-every-manual-click-gone/",
+          "source": "cfomagazine.com.au"
+        },
+        {
+          "n": 8,
+          "section": "finance",
+          "headline": "Aion launches an AI agent that does routine business finance",
+          "summary": "Aion Agent pays bills, chases invoices, keeps the books current and prepares close reports across banking, payments, cards and credit, with every payment and submission waiting for a human's approval; two-way sync to QuickBooks, Xero and NetSuite.",
+          "url": "https://seafood.einnews.com/pr_news/952937606/aion-launches-an-ai-agent-that-handles-the-work-of-business-finance-across-banking-payments-cards-and-credit",
+          "source": "einnews.com"
+        },
+        {
+          "n": 9,
+          "section": "finance",
+          "headline": "Figma's CFO on how AI is rewriting the finance function",
+          "summary": "On a16z's podcast, Praveer Melwani describes finance shifting from reconciling last month to deciding what the business should do next, with AI used in collections, expense analysis and M&A diligence, and warns AI 'slop' is a real risk when outputs aren't interrogated.",
+          "url": "https://podcasts.apple.com/nl/podcast/the-new-cfo-how-ai-is-rewriting-the-finance/id842818711?i=1000800030925&l=en-GB",
+          "source": "podcasts.apple.com"
+        },
+        {
+          "n": 10,
+          "section": "finance",
+          "headline": "AI forecasting use jumped to 76%, but ROI proof still lags",
+          "summary": "HiBob's CFO briefing cites Protiviti data showing AI use in financial forecasting rose from 58% to 76% in a year, yet only 35% of finance organizations say they're effective at measuring AI ROI; faster forecasts don't answer the board's question about returns.",
+          "url": "https://www.hibob.com/blog/cfo-challenges-ai-era/",
+          "source": "hibob.com"
+        }
+      ]
+    },
+    {
       "date": "2026-11-04",
       "label": "Wednesday, November 4, 2026",
-      "latest": true,
+      "latest": false,
       "items": [
         {
           "n": 1,
