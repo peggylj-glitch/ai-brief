@@ -1,12 +1,99 @@
 {
-  "updated": "2026-11-05",
+  "updated": "2026-11-06",
   "title": "The AI Brief",
   "description": "A daily digest of frontier AI and AI in enterprise finance.",
   "editions": [
     {
+      "date": "2026-11-06",
+      "label": "Friday, November 6, 2026",
+      "latest": true,
+      "items": [
+        {
+          "n": 1,
+          "section": "frontier",
+          "headline": "OpenAI launches GPT-6 Cyber, a gated security model",
+          "summary": "Scored 48.5% on ExploitGym, built 948 working Linux exploits and found 81 new high-severity Firefox flaws; in use at Mozilla, Palo Alto Networks and Cisco, available to select Daybreak Red customers.",
+          "url": "https://x.com/OpenAI/status/2118390190246879554",
+          "source": "x.com"
+        },
+        {
+          "n": 2,
+          "section": "frontier",
+          "headline": "Claude adds Personal Finance, read-only bank access in beta",
+          "summary": "US Pro, Max and Ultra subscribers can link accounts via Plaid and ask Claude about balances, spending and bills in plain language; Claude can't move, manage or invest money, and finance-hub chats are excluded from training.",
+          "url": "https://x.com/claudeai/status/2118403114890137895",
+          "source": "x.com"
+        },
+        {
+          "n": 3,
+          "section": "frontier",
+          "headline": "Google ships Gemini Omni 1.2 Flash to general availability",
+          "summary": "Native 15-second video generation and editing (up from 10 seconds), multi-turn conversational edits and stronger reference consistency, with 720p pricing cut 30% to $0.07 per second.",
+          "url": "https://x.com/GoogleAIStudio/status/2118390015382454491",
+          "source": "x.com"
+        },
+        {
+          "n": 4,
+          "section": "frontier",
+          "headline": "Thinking Machines launches Inkling 2 Small, weights coming next week",
+          "summary": "The 594B-parameter MoE (17B active) scores 31 on the Artificial Analysis Intelligence Index; live for fine-tuning and inference on Tinker now, with open weights under Apache 2.0 planned after external red-teaming.",
+          "url": "https://x.com/thinkymachines/status/2118489527362912566",
+          "source": "x.com"
+        },
+        {
+          "n": 5,
+          "section": "frontier",
+          "headline": "METR finds Anthropic's AI progress running at about 2x speed",
+          "summary": "After 11 weeks inside Anthropic's data, METR estimates capability gains are running 1.9x the March 2024 to Oct 2025 pace, with roughly 80% of the acceleration attributed to AI itself; Anthropic redacted most of the key evidence.",
+          "url": "https://x.com/METR_Evals/status/2118412183860351084",
+          "source": "x.com"
+        },
+        {
+          "n": 6,
+          "section": "finance",
+          "headline": "AI is now a core CFO responsibility, Amex survey finds",
+          "summary": "In the 2026 American Express CFO Survey of 999 finance executives, 57% call implementing AI a digital transformation responsibility (up from 39% in 2025) and 59% say AI is already delivering tangible cash-flow improvements.",
+          "url": "https://www.cfo.com/spons/ai-as-connective-tissue-linking-predictive-forecasting-to-automated-payment/872968/",
+          "source": "cfo.com"
+        },
+        {
+          "n": 7,
+          "section": "finance",
+          "headline": "FP&A goes first as finance teams adopt AI, CFO report finds",
+          "summary": "Finance Alliance's CFO Insights Report finds most teams are automating invoices, reporting and forecasting first, with agentic AI still rare; FP&A is the natural pilot because it already works with structured data and owns the forecast.",
+          "url": "https://www.financealliance.io/how-finance-teams-are-actually-using-ai-today/",
+          "source": "financealliance.io"
+        },
+        {
+          "n": 8,
+          "section": "finance",
+          "headline": "Artificio launches governed SAP AI agents for finance and procurement",
+          "summary": "The Nov 5 catalog adds agents for supplier invoice processing, AP/AR reconciliation, accruals and period-end close inside SAP ECC and S/4HANA, with human approvals, full audit trails and a shadow-mode evaluation before anything posts.",
+          "url": "https://www.einpresswire.com/article/954842435/artificio-launches-governed-sap-ai-agents-for-finance-supply-chain-manufacturing-and-it-operations",
+          "source": "einpresswire.com"
+        },
+        {
+          "n": 9,
+          "section": "finance",
+          "headline": "Singapore trains 4,000 public finance officers in AI fluency",
+          "summary": "The Accountant-General's Department and ISCA renewed their partnership to build AI capabilities across the public finance and internal audit workforce, with 400+ officers already enrolled in the AI Fluency Programme.",
+          "url": "https://techwithmuchiri.com/agd-and-isca-renews-mou-to-strengthen-finance-capabilities-across-the-public-service-with-continuing-professional-training/",
+          "source": "techwithmuchiri.com"
+        },
+        {
+          "n": 10,
+          "section": "finance",
+          "headline": "One healthcare FP&A analyst's month-end, automated step by step",
+          "summary": "A practitioner account shows Power Automate collecting inputs, Power Query cleaning data and AI drafting variance commentary, freeing hundreds of hours a year; the guardrail is to use only approved tools and never paste confidential financials into public ones.",
+          "url": "https://abishekrajeshh.medium.com/fp-a-and-ai-what-actually-changes-when-you-automate-the-month-end-52aa77587432",
+          "source": "medium.com"
+        }
+      ]
+    },
+    {
       "date": "2026-11-05",
       "label": "Thursday, November 5, 2026",
-      "latest": true,
+      "latest": false,
       "items": [
         {
           "n": 1,
