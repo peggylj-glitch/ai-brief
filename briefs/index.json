@@ -1,12 +1,99 @@
 {
-  "updated": "2026-11-06",
+  "updated": "2026-11-07",
   "title": "The AI Brief",
   "description": "A daily digest of frontier AI and AI in enterprise finance.",
   "editions": [
     {
+      "date": "2026-11-07",
+      "label": "Saturday, November 7, 2026",
+      "latest": true,
+      "items": [
+        {
+          "n": 1,
+          "section": "frontier",
+          "headline": "Meta launches Spaces in Muse, turning chat into custom mini-apps",
+          "summary": "Muse users can now describe an idea in plain language and get a persistent, interactive space, a planner, tracker, game or dashboard, that updates in the background from connected apps; Zuckerberg demoed a BBQ game, an event tracker and a home control dashboard.",
+          "url": "https://x.com/finkd/status/2118765774034579808",
+          "source": "x.com"
+        },
+        {
+          "n": 2,
+          "section": "frontier",
+          "headline": "Meta brings Muse Wonder's Active Memory and Active Focus to all Muse and Meta AI users",
+          "summary": "Specialized models distilled from the frontier Muse Wonder series now power the free consumer assistants, with Meta claiming they are 2.4x less likely to forget critical information and 67% better at self-correcting everyday tasks; its internal Personal Superintelligence Index rose to 47% from 38%.",
+          "url": "https://x.com/finkd/status/2118767522782626104",
+          "source": "x.com"
+        },
+        {
+          "n": 3,
+          "section": "frontier",
+          "headline": "OpenAI and Ligo launch BioBasicsBench, a wet-lab benchmark for AI agents",
+          "summary": "The 100-task benchmark built from real wet-lab experiments tests whether agents can read raw lab artifacts, gels, assay plates, microscopy and flow cytometry, and spot flawed data; GPT-6 Astra scored 66.7% at high reasoning effort, up from 43.8% for GPT-5.6 Sol.",
+          "url": "https://x.com/OpenAI/status/2118782708767965238",
+          "source": "x.com"
+        },
+        {
+          "n": 4,
+          "section": "frontier",
+          "headline": "OpenRouter ships a next-gen Auto Router and a coding router, Auto Code",
+          "summary": "The rebuilt router picks both the model and the reasoning effort per request from 2.5T tokens a month of traffic; Auto Code scores 74.3% on Deep SWE at $1.98 per task, roughly 74% cheaper than single frontier-model calls at comparable accuracy.",
+          "url": "https://x.com/OpenRouter/status/2118740149106573670",
+          "source": "x.com"
+        },
+        {
+          "n": 5,
+          "section": "frontier",
+          "headline": "Anthropic details how it builds persistent memory for Claude agents",
+          "summary": "An Engineering Blog post describes offline \"dreaming\" consolidation that turns session transcripts into structured wiki-style notes; on the CL-Bench database evaluation, adding the memory store lifted Claude Opus 5.5 from 0.655 to 0.838 mean reward across 30 sequential questions.",
+          "url": "https://x.com/AnthropicAI/status/2118814753154064501",
+          "source": "x.com"
+        },
+        {
+          "n": 6,
+          "section": "finance",
+          "headline": "Sage Intacct unveils AI Workspaces for finance teams",
+          "summary": "Announced Nov 5 at Sage Future for Partners in Atlanta, the workspaces put Sage's finance agents, AP, period close, assurance, into one place with the invoice, the agent's flags and the approval steps; the first workspace, for accounts payable, enters limited rollout with selected customers in November, and the Sage Agent Marketplace is live now.",
+          "url": "https://www.globenewswire.com/news-release/2026/11/05/3396801/0/en/sage-intacct-sets-out-its-vision-for-an-agentic-finance-platform-with-ai-workspaces.html",
+          "source": "globenewswire.com"
+        },
+        {
+          "n": 7,
+          "section": "finance",
+          "headline": "FloQast and PwC UK expand partnership for AI-powered outsourced finance",
+          "summary": "The expanded partnership pairs FloQast's autonomous accounting platform with PwC's Finance Managed Services to run month-end close, reconciliations, core accounting and compliance for UK organisations, aimed at CFOs facing accounting talent shortages.",
+          "url": "https://financechief.com/news/floqast-and-pwc-partner-to-expand-finance-services-with-ai",
+          "source": "financechief.com"
+        },
+        {
+          "n": 8,
+          "section": "finance",
+          "headline": "Garner Health's 7-person finance team runs the close and reforecasts on Claude",
+          "summary": "CFO Jake Shuster told CFO Upside that with four people in accounting and three in FP&A, \"everything from bank reconciliations to monthly close processes to building the reforecast\" is generated through Claude, as the company builds toward public-company rigor.",
+          "url": "https://www.thedailyupside.com/cfo/technology-cfo/where-cfos-draw-the-line-on-ai-authority-jake-shuster-kenneth-paqvalen-dean-quiambao-irina-berkon/",
+          "source": "thedailyupside.com"
+        },
+        {
+          "n": 9,
+          "section": "finance",
+          "headline": "Figma's CFO on automating collections, expenses and M&A diligence with AI",
+          "summary": "On the a16z Show, Praveer Melwani described moving from hundreds of lines of hand-written SQL to AI-automated collections, expense analysis and deal diligence, while warning finance teams not to outsource their thinking to \"AI slop\".",
+          "url": "https://podcastrex.com/shows/the-a16z-show/the-new-cfo-how-ai-is-rewriting-the-finance-function-figma-cfo-praveer-melwani",
+          "source": "podcastrex.com"
+        },
+        {
+          "n": 10,
+          "section": "finance",
+          "headline": "Microsoft 365 Copilot adds accounting features, GA from Nov 13",
+          "summary": "Copilot in Excel and Cowork will prepare reconciliations, draft journal entries and assist with financial analysis and reporting, with accountants keeping approval control; public preview runs late October to mid-November, with worldwide general availability starting Nov 13.",
+          "url": "https://dellenny.com/microsoft-365-copilot-accounting-features-bring-ai-powered-reconciliation-and-journal-entries-to-excel-and-cowork/",
+          "source": "dellenny.com"
+        }
+      ]
+    },
+    {
       "date": "2026-11-06",
       "label": "Friday, November 6, 2026",
-      "latest": true,
+      "latest": false,
       "items": [
         {
           "n": 1,
