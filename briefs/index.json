@@ -1,12 +1,99 @@
 {
-  "updated": "2026-11-07",
+  "updated": "2026-11-08",
   "title": "The AI Brief",
   "description": "A daily digest of frontier AI and AI in enterprise finance.",
   "editions": [
     {
+      "date": "2026-11-08",
+      "label": "Sunday, November 8, 2026",
+      "latest": true,
+      "items": [
+        {
+          "n": 1,
+          "section": "frontier",
+          "headline": "Alibaba teases Qwen 4 with a cryptic \"The becoming begins\" post",
+          "summary": "The official @Alibaba_Qwen account posted a teaser poster on Nov 6 with no model name, date or specs; it passed 2 million views within a day, and the community reads it as the Qwen 4 launch signal, with Alibaba having confirmed in September that Qwen 4 is in training on a new architecture.",
+          "url": "https://x.com/Alibaba_Qwen/status/2118674834632978755",
+          "source": "x.com"
+        },
+        {
+          "n": 2,
+          "section": "frontier",
+          "headline": "DeepMind shows AI agents stress-testing encryption, finding flaws in legacy 1024-bit RSA",
+          "summary": "Human-guided models uncovered two structural weaknesses in legacy 1024-bit RSA cryptosystems; modern 2048-bit systems remain safe from these exploits, but DeepMind says historical hardness assumptions can no longer be taken for granted as AI-enabled math advances.",
+          "url": "https://x.com/GoogleDeepMind/status/2118755418675765656",
+          "source": "x.com"
+        },
+        {
+          "n": 3,
+          "section": "frontier",
+          "headline": "Mistral Studio adds managed agents, workflows and apps in public preview",
+          "summary": "Announced Nov 5, Studio now offers managed agents with human-approval gates, a natural-language workflow builder, MCP deployment and evaluations, built around the open-weight Mistral Large 4 (\"Le Chonk\"); most features are public preview, with private-cloud and on-premises availability due at the end of November.",
+          "url": "https://x.com/MistralAI/status/2118370229466153299",
+          "source": "x.com"
+        },
+        {
+          "n": 4,
+          "section": "frontier",
+          "headline": "Anthropic cuts Claude Code token waste from background subagents by ~99% per update",
+          "summary": "Status-line updates every 30 seconds used to make the base model re-read the whole conversation; Haiku 5.5 now writes them from short notes instead, giving about 6% more prompts per usage limit in v2.1.316+.",
+          "url": "https://x.com/ClaudeDevs/status/2118063143167693011",
+          "source": "x.com"
+        },
+        {
+          "n": 5,
+          "section": "frontier",
+          "headline": "Claude Code lead Cat Wu joins OpenAI to run Core Products",
+          "summary": "Days after announcing her departure from Anthropic, where she led Claude Code, Wu said Nov 4 she is joining OpenAI to lead product management for Core Products, a notable hire in the agentic-coding talent race.",
+          "url": "https://x.com/_catwu/status/2118137612577968402",
+          "source": "x.com"
+        },
+        {
+          "n": 6,
+          "section": "finance",
+          "headline": "Board: AI belongs on the controls in financial consolidation, not the sign-off",
+          "summary": "In a Nov 6 post, Board argues AI should explain and propose while rules check and humans sign; its Controller Agent runs three checks inside consolidation, and customer Zentiva cut its monthly close by two days while adding reporting detail.",
+          "url": "https://www.board.com/blog/ai-in-financial-consolidation",
+          "source": "board.com"
+        },
+        {
+          "n": 7,
+          "section": "finance",
+          "headline": "CFOs say AI's earliest finance wins are transactional, with FP&A first in line",
+          "summary": "Finance Alliance's CFO Insights Report (Nov 5), drawing on CFOs from PepsiCo, Visa and CVS Health, finds most teams automating invoices and reporting first; GreenWaste's CFO says AI use is limited to FP&A today, with a wider enablement program underway.",
+          "url": "https://www.financealliance.io/how-finance-teams-are-actually-using-ai-today/",
+          "source": "financealliance.io"
+        },
+        {
+          "n": 8,
+          "section": "finance",
+          "headline": "Emburse launches AI-powered AP automation for growing finance teams",
+          "summary": "Emburse AP (Nov 3) handles invoice capture, vendor matching, coding assistance, duplicate detection and two- and three-way PO matching, plus payments, aimed at lean teams that need stronger spend controls and cash-flow visibility.",
+          "url": "https://payablesplace.ardentpartners.com/2026/11/emburse-enters-the-ap-automation-market-with-a-solution-for-growing-finance-teams/",
+          "source": "payablesplace.ardentpartners.com"
+        },
+        {
+          "n": 9,
+          "section": "finance",
+          "headline": "Ant International demos live \"agentic treasury\" on tokenised deposits",
+          "summary": "Live HKD interbank transactions via the HKMA's EnsembleTX moved tokenised deposits between banks; Ant pairs the settlement layer with AI FX intelligence so agents can execute treasury flows, closing the loop between decision and execution.",
+          "url": "https://ffnews.com/news/ant-international-achieves-real-time-cross-bank-liquidity-via-hkma-ensembletx-tokenisation",
+          "source": "ffnews.com"
+        },
+        {
+          "n": 10,
+          "section": "finance",
+          "headline": "TranscendAP and Carahsoft bring AI AP automation to public-sector finance teams",
+          "summary": "The Nov 4 partnership makes TranscendAP's AI invoice processing and approval automation available to government agencies, schools and healthcare organisations through established procurement contracts.",
+          "url": "https://www.carahsoft.com/news/transcendap-and-carahsoft-partner-to-expand-access-to-ai-powered-ap-automation-across-the-public-sector-2026",
+          "source": "carahsoft.com"
+        }
+      ]
+    },
+    {
       "date": "2026-11-07",
       "label": "Saturday, November 7, 2026",
-      "latest": true,
+      "latest": false,
       "items": [
         {
           "n": 1,
