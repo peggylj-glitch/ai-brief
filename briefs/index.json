@@ -1,12 +1,99 @@
 {
-  "updated": "2026-11-11",
+  "updated": "2026-11-12",
   "title": "The AI Brief",
   "description": "A daily digest of frontier AI and AI in enterprise finance.",
   "editions": [
     {
+      "date": "2026-11-12",
+      "label": "Thursday, November 12, 2026",
+      "latest": true,
+      "items": [
+        {
+          "n": 1,
+          "section": "frontier",
+          "headline": "Grok Bot 1.0 leaves beta, turning bots into shareable workplace teammates",
+          "summary": "Announced Nov 11: bots can now be shared across a team, work inside Slack and Microsoft Teams, join live meetings, and learn team conventions over time, with new Gmail, Google Calendar and GitHub integrations plus thousands of ready-made templates; Gopuff ordering is also built in for US users.",
+          "url": "https://x.com/bot/status/2120582957782200586",
+          "source": "x.com"
+        },
+        {
+          "n": 2,
+          "section": "frontier",
+          "headline": "Google ships Gemini Decision 1, a model that answers up to 1,000 questions in one pass",
+          "summary": "Announced Nov 11: the Decisions API evaluates up to 1,000 classification, routing or rubric-grading questions in a single forward pass with calibrated confidence scores, at $0.10 per million input tokens and zero output tokens billed; Google already uses it for model routing in Gemini Notebook, cutting everyday query latency by up to 40%.",
+          "url": "https://x.com/sundarpichai/status/2120581155078729728",
+          "source": "x.com"
+        },
+        {
+          "n": 3,
+          "section": "frontier",
+          "headline": "DeepMind releases AlphaGenome 2, modelling why the same mutation harms some cell types and not others",
+          "summary": "Announced Nov 11: the model conditions variant-effect predictions on single-cell expression data, covering 9 billion human variants in the new AlphaGenome Atlas, and ships via a free non-commercial research API; it is for research only, not clinical or diagnostic use.",
+          "url": "https://x.com/GoogleDeepMind/status/2120532824465805749",
+          "source": "x.com"
+        },
+        {
+          "n": 4,
+          "section": "frontier",
+          "headline": "Runway open-sources Praxis-1, a video-pretrained robot control model",
+          "summary": "Announced Nov 11: the 27.2B-parameter mixture-of-experts video-diffusion trunk plus a 0.3B action expert, trained across 18 robot embodiments, scores 46.2% on NVIDIA's 120-task RoboLab-120 suite, ahead of FLUX 3 Action at 42.9%; base and embodiment-tuned checkpoints are on Hugging Face under Apache 2.0.",
+          "url": "https://x.com/runwayml/status/2120533081182577116",
+          "source": "x.com"
+        },
+        {
+          "n": 5,
+          "section": "frontier",
+          "headline": "Cursor rebuilds Projects for multiplayer agent coordination",
+          "summary": "Announced Nov 10: teams now share one workspace where each person's coordinator and worker agents plan around each other, flag conflicts and hand off work, with shared specs, memory and on-call handoffs; in internal testing 11 people ran 62 concurrent agents and merged 972 pull requests in 15 days.",
+          "url": "https://x.com/cursor_ai/status/2120295553309565139",
+          "source": "x.com"
+        },
+        {
+          "n": 6,
+          "section": "finance",
+          "headline": "Xero launches Xforce to help accounting firms put AI to work",
+          "summary": "Announced Nov 11: forward-deployed engineers and partner consultants will work inside firms to design AI-era workflows on Xero OS, using XeroForce and Xero's APIs to automate processes end to end; the beta starts with a handful of design partners in Australia, New Zealand and the UK.",
+          "url": "https://www.businesswire.com/news/home/20261111188410/en/",
+          "source": "businesswire.com"
+        },
+        {
+          "n": 7,
+          "section": "finance",
+          "headline": "KPMG scales Microsoft Copilot to its 276,000-person workforce and adds Agent 365 oversight",
+          "summary": "Announced Nov 12: Copilot rolls out across KPMG globally including Thailand, while Agent 365 manages, monitors and secures the firm's AI agents; the work feeds KPMG Workbench, its Microsoft Foundry platform coordinating agents across audit, tax and advisory delivery.",
+          "url": "https://news.microsoft.com/source/asia/2026/11/12/kpmg-scale-trusted-enterprise-ai-in-thailand-through-microsoft-copilot-and-microsoft-agent-365/",
+          "source": "news.microsoft.com"
+        },
+        {
+          "n": 8,
+          "section": "finance",
+          "headline": "Microsoft 365 Copilot accounting skills go live in Excel and Cowork tomorrow",
+          "summary": "General availability begins Nov 13: Copilot in Excel and Cowork will reconcile accounts, draft journal entries, explain variances and prepare financial reports, with an optional audit trail in Excel; in a seven-day Insider preview, 8,000+ users invoked the accounting skills 44,000 times.",
+          "url": "https://mc.merill.net/message/MC1536053",
+          "source": "mc.merill.net"
+        },
+        {
+          "n": 9,
+          "section": "finance",
+          "headline": "Sikich CFO survey: rates and working capital top treasury worries as AI governance hits the board agenda",
+          "summary": "Published Nov 11: 48% of finance chiefs name interest-rate volatility and 48% working-capital optimization as their biggest treasury concerns heading into 2027, while 30% say AI implementation and governance is now a top board or investor priority; 56% of organizations report operational AI use, up from 43% in 2025.",
+          "url": "https://www.cfo.com/news/interest-rates-remain-top-of-mind-for-finance-chiefs-at-2026s-end-sikich-survey/874300/",
+          "source": "cfo.com"
+        },
+        {
+          "n": 10,
+          "section": "finance",
+          "headline": "One CFO advisory firm cut close and reporting from 10-15 hours a month to 1-2 with Claude agents",
+          "summary": "Published Nov 12: Island Waters Accounting connected Claude to client QuickBooks Online and Xero books via NumbersGame, building agents for transaction review, month-end entries, KPI review and board decks, with human approval before any write; the founder reports monthly accounting and reporting time fell from roughly 10-15 hours to 1-2 hours.",
+          "url": "https://www.einpresswire.com/article/956219253/island-waters-accounting-uses-numbersgame-to-build-its-own-ai-agents-for-close-reporting-and-cfo-advisory",
+          "source": "einpresswire.com"
+        }
+      ]
+    },
+    {
       "date": "2026-11-11",
       "label": "Wednesday, November 11, 2026",
-      "latest": true,
+      "latest": false,
       "items": [
         {
           "n": 1,
