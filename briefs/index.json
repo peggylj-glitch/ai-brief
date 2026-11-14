@@ -1,12 +1,99 @@
 {
-  "updated": "2026-11-13",
+  "updated": "2026-11-14",
   "title": "The AI Brief",
   "description": "A daily digest of frontier AI and AI in enterprise finance.",
   "editions": [
     {
+      "date": "2026-11-14",
+      "label": "Saturday, November 14, 2026",
+      "latest": true,
+      "items": [
+        {
+          "n": 1,
+          "section": "frontier",
+          "headline": "OpenAI launches ChatGPT Wallet so agents can pay on your behalf",
+          "summary": "Announced Nov 13: agents complete purchases with a payment token instead of your actual card details, and every purchase requires a security check; rolling out to ChatGPT Pro subscribers in the US, built with American Express, Mastercard and Visa.",
+          "url": "https://x.com/ChatGPT/status/2121283151729496235",
+          "source": "x.com"
+        },
+        {
+          "n": 2,
+          "section": "frontier",
+          "headline": "DeepSeek opens its app's tools to developers via API",
+          "summary": "Announced Nov 13: web search, URL reading, file input, safety checks and voice from the DeepSeek App are now available through the API on deepseek-flash (V4.1-Flash), plus standalone Search, Fetch, OCR, ASR and TTS APIs with tool fees on top of token charges; an open-source chat demo is on GitHub.",
+          "url": "https://x.com/deepseek_ai/status/2121247896918253875",
+          "source": "x.com"
+        },
+        {
+          "n": 3,
+          "section": "frontier",
+          "headline": "Claude Code Projects gets a proactive coordinator and thread tools",
+          "summary": "Announced Nov 13: the Projects coordinator now answers questions in project chat and reports on thread status; /btw and /fork split work into new threads, threads can be snoozed with reminders and shared as read-only links; in public beta on Pro and Max.",
+          "url": "https://x.com/ClaudeDevs/status/2121375309287301360",
+          "source": "x.com"
+        },
+        {
+          "n": 4,
+          "section": "frontier",
+          "headline": "llama.cpp hits 1.0, promising a stable API for local AI",
+          "summary": "Released Nov 13: after 3.5 years, libllama and libggml reach v1.0.0 with formal semantic versioning, so breaking API or ABI changes will come only with major version bumps; the release removes 35 deprecated functions and adds FP8 KV caches.",
+          "url": "https://x.com/ggerganov/status/2121246103312212124",
+          "source": "x.com"
+        },
+        {
+          "n": 5,
+          "section": "frontier",
+          "headline": "Gemini's Personal Intelligence adds Google Wallet for spending-aware answers",
+          "summary": "Announced Nov 13: Gemini can now draw on Wallet data to chart cash flow and budgets, flag forgotten subscriptions and price increases, and suggest holiday budgets from last year's spending; bank and card accounts can be linked via Plaid, read-only.",
+          "url": "https://x.com/Google/status/2121293823837921433",
+          "source": "x.com"
+        },
+        {
+          "n": 6,
+          "section": "finance",
+          "headline": "MMC: most finance teams running AI in production built their own tools",
+          "summary": "Published Nov 13: a survey of 50+ CFOs and senior finance leaders found more than half of teams with AI in production built it in-house, yet none of them prefer a build-first strategy; the research maps 70+ real use cases across AP, AR, reconciliation, forecasting and reporting, plus 110+ agentic finance startups.",
+          "url": "https://mmc.vc/research/state-of-agentic-finance/",
+          "source": "mmc.vc"
+        },
+        {
+          "n": 7,
+          "section": "finance",
+          "headline": "RightRev launches AI agents for continuous, audit-ready revenue recognition",
+          "summary": "Announced Nov 12: RightAgents pull contract terms, turn revenue policy into rules, reconcile across systems and draft explanations under human review, aiming to replace the month-end close with continuous revenue accounting; available via MCP from Claude, ChatGPT and other tools.",
+          "url": "https://www.cpapracticeadvisor.com/2026/11/13/rightrev-releases-suite-of-ai-agents-dedicated-solely-to-the-revenue-number/193875/",
+          "source": "cpapracticeadvisor.com"
+        },
+        {
+          "n": 8,
+          "section": "finance",
+          "headline": "Workday and Zuora team up on billing and revenue for AI pricing models",
+          "summary": "Announced Nov 12: Zuora Billing and Zuora Revenue are now available inside Workday Financial Management, so finance teams can bill usage-based and AI-driven pricing and close with revenue recognized correctly, without losing accuracy or control.",
+          "url": "https://newsroom.workday.com/2026-11-12-Workday-and-Zuora-Expand-Partnership-to-Help-Companies-Launch-AI-and-Usage-Based-Pricing-Without-Sacrificing-Accuracy-or-Financial-Control",
+          "source": "newsroom.workday.com"
+        },
+        {
+          "n": 9,
+          "section": "finance",
+          "headline": "AI is saving finance teams time, then handing them new work",
+          "summary": "Survey released Nov 5, covered Nov 12: Accounting Seed asked ~200 finance professionals at US small and midsize companies; 81% say AI saved meaningful time, but 70% say it also added new responsibilities without removing old ones, 54% often correct AI outputs first, and 82% say they'd get more value if financial data lived in one system.",
+          "url": "https://www.prnewswire.com/news-releases/new-accounting-seed-research-exposes-the-hidden-workload-behind-ai-in-finance-302931139.html",
+          "source": "prnewswire.com"
+        },
+        {
+          "n": 10,
+          "section": "finance",
+          "headline": "Insight's Agent Store adds TokenScope to help finance teams track AI spend",
+          "summary": "Launched Nov 13: the catalog of enterprise AI agents includes TokenScope, a cost-management tool that measures token usage so finance teams can tie AI spend to teams and projects; the store is generally available in 14 countries.",
+          "url": "https://www.hpcwire.com/aiwire/2026/11/13/insight-launches-agent-store-to-accelerate-enterprise-ai-adoption/",
+          "source": "hpcwire.com"
+        }
+      ]
+    },
+    {
       "date": "2026-11-13",
       "label": "Friday, November 13, 2026",
-      "latest": true,
+      "latest": false,
       "items": [
         {
           "n": 1,
