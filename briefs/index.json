@@ -1,12 +1,91 @@
 {
-  "updated": "2026-11-14",
+  "updated": "2026-11-15",
   "title": "The AI Brief",
   "description": "A daily digest of frontier AI and AI in enterprise finance.",
   "editions": [
     {
+      "date": "2026-11-15",
+      "label": "Sunday, November 15, 2026",
+      "latest": true,
+      "items": [
+        {
+          "n": 1,
+          "section": "frontier",
+          "headline": "Jensen Huang resigns as NVIDIA CEO; CFO Colette Kress named interim chief",
+          "summary": "Announced Nov 12: Huang stepped down effective immediately, with no reason given; Kress, CFO since 2013, takes over as interim CEO while the board searches for a successor, and Harvey C. Jones becomes NVIDIA's first board chair; Q3 results are still due Nov 17.",
+          "url": "https://litwebtech.com/news/jensen-huang-resigns-as-nvidia-ceo-colette-kress-steps-in.html",
+          "source": "litwebtech.com"
+        },
+        {
+          "n": 2,
+          "section": "frontier",
+          "headline": "OpenAI reorganizes its standalone robotics team",
+          "summary": "Reported Nov 13: OpenAI moved its robotics researchers onto other teams, folding research into the main lab under Mark Chen and applied work under Greg Brockman; the bet is that general-purpose models like GPT-6 Astra can drive robots directly, and OpenAI says robotics remains core to its long-term vision.",
+          "url": "https://x.com/FortuneMagazine/status/2121377279846539332",
+          "source": "x.com"
+        },
+        {
+          "n": 3,
+          "section": "frontier",
+          "headline": "Claude Code ships experimental Code Mode, letting Claude call tools via JavaScript",
+          "summary": "In v2.1.323 (Nov 12): instead of calling tools one at a time, Claude writes JavaScript that runs the calls in parallel and returns only the output it needs; it is opt-in and experimental, and auto mode's classifier reviews the code rather than each individual call.",
+          "url": "https://x.com/pggalaviz/status/2121652838447169783",
+          "source": "x.com"
+        },
+        {
+          "n": 4,
+          "section": "frontier",
+          "headline": "Claude helped a logician surface 663 theorems from Gödel's lost notebooks",
+          "summary": "Reported Nov 13: Helsinki logician Jan von Plato fed Claude his transcriptions of 1,009 pages of Gödel's 1940s shorthand notebooks and got a 650-page digest in days; about 400 of the 663 theorems checked out in the Coq proof verifier as stated, around 200 needed repair and about 50 were false, including a near-complete reconstruction of the independence of the axiom of choice.",
+          "url": "https://x.com/pickover/status/2121752534746300576",
+          "source": "x.com"
+        },
+        {
+          "n": 5,
+          "section": "frontier",
+          "headline": "Claude Meetings enters beta, putting Claude inside Google Meet calls",
+          "summary": "Rolling out Nov 12 on Team and Enterprise plans: Claude joins as a visible participant, answers questions, and builds docs, whiteboards and slides live while the team talks, with a meeting page afterward; Google Meet only for now, notes and transcripts free in beta, artifacts free through Feb 10, 2027.",
+          "url": "https://claude.com/resources/articles/claude-meetings",
+          "source": "claude.com"
+        },
+        {
+          "n": 6,
+          "section": "finance",
+          "headline": "Deloitte: AI adoption in finance is outpacing governance confidence",
+          "summary": "Q2 2026 CFO Signals, reported Nov 12: 93% of CFOs at $1B+ companies say their firms use AI across functions, but only 43% are confident in their current AI oversight arrangements; the gap leaves finance chiefs owning AI decisions without the controls to govern them.",
+          "url": "https://www.srmtoday.com/ai-adoption-outpaces-governance-confidence-among-north-american-companies/",
+          "source": "srmtoday.com"
+        },
+        {
+          "n": 7,
+          "section": "finance",
+          "headline": "Everyone has Claude now, and suddenly everyone's an FP&A expert",
+          "summary": "Nov 12: business leaders are building their own forecasts and dashboards with Claude, so FP&A's job is shifting from producing analysis to verifying it; the piece argues the real danger is not wrong math but correct math built on an incomplete understanding of the business.",
+          "url": "https://theschlottco.com/everyone-has-claude-suddenly-everyones-an-fpa-expert/",
+          "source": "theschlottco.com"
+        },
+        {
+          "n": 8,
+          "section": "finance",
+          "headline": "GrubMarket launches an AI purchase-order agent for food distributors",
+          "summary": "Announced Nov 13: AI Orders turns vendor invoices and receipts into purchase orders matched to a distributor's own catalog, cutting manual data entry in the purchasing step that follows a sale; it extends GrubMarket's June AI sales agent into the back office.",
+          "url": "https://wisevoter.com/world/us/ca/south-san-francisco/2026/11/13/grubmarket-launches-ai-purchase-order-agent",
+          "source": "wisevoter.com"
+        },
+        {
+          "n": 9,
+          "section": "finance",
+          "headline": "Inn-Flow embeds an AI AP agent in hotel accounting",
+          "summary": "Announced Nov 13: the native AP Agent splits multi-invoice PDFs, matches vendors, codes to the general ledger and allocates tax for multi-property hotel groups, with humans still approving entries; it replaces the need for a separate invoice-processing tool.",
+          "url": "https://hospitalitytech.com/inn-flow-embeds-ai-powered-ap-agent-automate-multi-property-hotel-accounting-workflows",
+          "source": "hospitalitytech.com"
+        }
+      ]
+    },
+    {
       "date": "2026-11-14",
       "label": "Saturday, November 14, 2026",
-      "latest": true,
+      "latest": false,
       "items": [
         {
           "n": 1,
