@@ -1,12 +1,91 @@
 {
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "title": "The AI Brief",
   "description": "A daily digest of frontier AI and AI in enterprise finance.",
   "editions": [
     {
+      "date": "2026-11-16",
+      "label": "Monday, November 16, 2026",
+      "latest": true,
+      "items": [
+        {
+          "n": 1,
+          "section": "frontier",
+          "headline": "OpenAI launches a science blog; first post traces GPT-6 Astra's role in a lattice Standard Model candidate",
+          "summary": "Announced Nov 15: the new blog will share research findings, practical methods and firsthand accounts from scientists using AI; the opening guest post has physicist Nathaniel Craig describing how he worked with GPT-6 Astra on a candidate lattice definition of the Standard Model (preprint Oct 6, still a candidate, not a settled result).",
+          "url": "https://x.com/OpenAI/status/2122123437141553630",
+          "source": "x.com"
+        },
+        {
+          "n": 2,
+          "section": "frontier",
+          "headline": "Trump administration set to name five AI firms \"national champions\"",
+          "summary": "Reported Nov 15, per WSJ and Reuters: Nvidia, Amazon, Microsoft, OpenAI and Anthropic are to be named AI national champions to help US firms win business overseas.",
+          "url": "https://x.com/Cointelegraph/status/2122184810672087464",
+          "source": "x.com"
+        },
+        {
+          "n": 3,
+          "section": "frontier",
+          "headline": "Grok Imagine's image and video creation now live inside Grok",
+          "summary": "Announced Nov 14: image and video generation folds into the main Grok experience as Image/Video mode; no new model, the same Imagine tools in a single chat surface.",
+          "url": "https://x.com/imagine/status/2121672946968318285",
+          "source": "x.com"
+        },
+        {
+          "n": 4,
+          "section": "frontier",
+          "headline": "NVIDIA reports Q3 tomorrow in its first earnings without Jensen Huang",
+          "summary": "Due Tue Nov 17 after the close: interim CEO Colette Kress, who also remains CFO, presents results against the company's own $108B revenue guide (consensus about $108.7-109B), with market value down from about $5.8T in early October to about $3.9T.",
+          "url": "https://aistockwire.com/blog/nvidia-nvda-earnings-preview-q3-fiscal-2027-kress-guidance-november-2026",
+          "source": "aistockwire.com"
+        },
+        {
+          "n": 5,
+          "section": "frontier",
+          "headline": "xAI quietly flipped Grok's API text watermarking from on to off by default",
+          "summary": "Reported Nov 15: xAI's developer docs, updated Nov 13, now say text watermarking is off by default and opt-in per model for team admins, reversing the Nov 7 default-on plan meant to comply with the EU AI Act; no announcement or reason was given.",
+          "url": "https://aiinteldesk.substack.com/p/xai-quietly-flipped-groks-watermark",
+          "source": "aiinteldesk.substack.com"
+        },
+        {
+          "n": 6,
+          "section": "finance",
+          "headline": "Tipalti launches an AP Agent that runs the full payables lifecycle, with MCP links to enterprise AI tools",
+          "summary": "Announced Nov 15: the agent handles invoice capture, coding, approvals, payments and reconciliation under a human-in-the-loop model with a full audit trail; MCP support lets tools such as Claude Enterprise query Tipalti's AP and payments data in real time.",
+          "url": "https://www.europesays.com/3376332/",
+          "source": "europesays.com"
+        },
+        {
+          "n": 7,
+          "section": "finance",
+          "headline": "Deloitte Middle East launches BusinessNext, an AI-enabled finance service for growing SMEs",
+          "summary": "Launched Nov 16: the managed service runs finance, accounting, tax and VAT compliance and payroll through Deloitte's AI-enabled InBooks platform, with Deloitte professionals overseeing day-to-day processes, aimed at GCC firms of up to about 200 people.",
+          "url": "https://dubaidiaries.com/deloitte-middle-east-launches-businessnext-for-gr/",
+          "source": "dubaidiaries.com"
+        },
+        {
+          "n": 8,
+          "section": "finance",
+          "headline": "AI agents for tax and corporate finance teams raise fresh capital to scale",
+          "summary": "Reported Nov 14: Blue J raised $176M to scale Workflows, agents that carry out routine tax tasks such as reviewing returns before filing and drafting IRS notice responses; Hyphenate raised $45M for agents working inside corporate finance teams across order-to-cash, treasury, general ledger, procure-to-pay and reporting.",
+          "url": "https://cpatrendlines.com/2026/11/14/ai-startups-bag-1-8-billion-in-funding-so-far-this-year/",
+          "source": "cpatrendlines.com"
+        },
+        {
+          "n": 9,
+          "section": "finance",
+          "headline": "Microsoft 365 Copilot's accounting features reach general availability",
+          "summary": "GA began Nov 13: Copilot in Excel and Cowork now assists with account reconciliation, journal entry preparation, variance analysis, budgeting, forecasting, audit and tax work; it prepares and analyzes rather than approving transactions itself.",
+          "url": "https://dellenny.com/microsoft-365-copilot-accounting-features-bring-ai-powered-reconciliation-and-journal-entries-to-excel-and-cowork/",
+          "source": "dellenny.com"
+        }
+      ]
+    },
+    {
       "date": "2026-11-15",
       "label": "Sunday, November 15, 2026",
-      "latest": true,
+      "latest": false,
       "items": [
         {
           "n": 1,
