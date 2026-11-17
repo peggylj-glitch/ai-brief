@@ -1,12 +1,99 @@
 {
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "title": "The AI Brief",
   "description": "A daily digest of frontier AI and AI in enterprise finance.",
   "editions": [
     {
+      "date": "2026-11-17",
+      "label": "Tuesday, November 17, 2026",
+      "latest": true,
+      "items": [
+        {
+          "n": 1,
+          "section": "frontier",
+          "headline": "OpenAI doubles free frontier access for scientists to 200,000",
+          "summary": "Announced Nov 16: ChatGPT for Academic Researchers expands from a 100,000 target to up to 200,000 scientists worldwide, with 50,000 new grants opening Nov 23 on a first-come, first-served basis, each covering the recipient plus up to two collaborators with ChatGPT Plus. A companion study of 1,819 pilot researchers found they estimated the same work would have taken about 1.9x as long without AI, a self-reported figure OpenAI cautions proves nothing causal.",
+          "url": "https://x.com/OpenAI/status/2122377585523126615",
+          "source": "x.com"
+        },
+        {
+          "n": 2,
+          "section": "frontier",
+          "headline": "OpenAI opens its models to outside \"embedded assessments\"",
+          "summary": "Announced Nov 16: Apollo Research, METR, Transluce and Goodfire get deep access to OpenAI's internal models and systems to investigate alignment and test safeguards, bringing independent scrutiny inside the lab rather than after release.",
+          "url": "https://x.com/OpenAI/status/2122359930628063248",
+          "source": "x.com"
+        },
+        {
+          "n": 3,
+          "section": "frontier",
+          "headline": "NVIDIA unveils Rubin HPC, a 50,000-plus-core GPU for agent-driven science",
+          "summary": "Announced Nov 16 at SC26: a new Vera Rubin GPU built for simulation and data processing in science, engineering and analytics, with sparse-data acceleration and seventh-generation NVLink, aimed at AI agents that propose experiments and run simulations to filter them; expected in 2028, with no memory, power or price figures published yet.",
+          "url": "https://blogs.nvidia.com/blog/rubin-hpc/",
+          "source": "blogs.nvidia.com"
+        },
+        {
+          "n": 4,
+          "section": "frontier",
+          "headline": "Anthropic's IPO book is reportedly about 6x oversubscribed ahead of pricing",
+          "summary": "Reported Nov 17, per Reuters: orders reached about six times the 825 million shares on offer by the close of the third roadshow day; pricing is expected Nov 18 and Nasdaq trading as ANT from Nov 19, at $70-78 a share, implying a valuation up to about $1.4T.",
+          "url": "https://www.neoteo.com/en/reuters-reports-6-order-coverage-in-anthropics-ipo-roadshow",
+          "source": "neoteo.com"
+        },
+        {
+          "n": 5,
+          "section": "frontier",
+          "headline": "DeepSeek caps free-tier usage, citing a compute shortage",
+          "summary": "Reported Nov 16: free app and web users hit new limits, with single inputs capped at about 40,000 characters, chats inactive for 7+ days no longer resumable, and a daily conversation quota; DeepSeek has issued no formal statement, so the rules and how long they last are unconfirmed.",
+          "url": "https://investinglive.com/stocks/ai-daily-quotas-come-to-deepseek-a-visible-sign-of-china-s-ai-chip-crunch/",
+          "source": "investinglive.com"
+        },
+        {
+          "n": 6,
+          "section": "finance",
+          "headline": "BlackLine brings its agentic finance platform to Anthropic's Claude Marketplace",
+          "summary": "Announced Nov 16: BlackLine's products and Verity AI capabilities are now listed, letting eligible Anthropic customers apply committed Anthropic spend to BlackLine; customers using Verity Accruals built on Claude are already seeing over 80% time savings in their close process, per the company.",
+          "url": "https://www.tradingview.com/news/globenewswire:74deaf97c094b:0-blackline-is-now-available-on-anthropic-s-claude-marketplace/",
+          "source": "tradingview.com"
+        },
+        {
+          "n": 7,
+          "section": "finance",
+          "headline": "Pacera launches a unified suite for close, consolidation and FP&A",
+          "summary": "Launched Nov 16: Pacera Suite combines Aico Close, AARO Consolidation and Mercur FP&A on one platform for the CFO's office, with an AI intelligence layer and AI chat now, and AI and predictive forecasting inside FP&A.",
+          "url": "https://itbusinessnet.com/2026/11/pacera-introduces-pacera-suite-bringing-close-consolidation-and-analytics-onto-one-platform-for-cfos/",
+          "source": "itbusinessnet.com"
+        },
+        {
+          "n": 8,
+          "section": "finance",
+          "headline": "BearingPoint: 75% of CFOs expect AI to hit finance hard by 2030, but 74% say adoption is still minimal",
+          "summary": "Published Nov 2026: in BearingPoint's CFO in the Age of AI study, planning, budgeting and forecasting are seen as the most affected activities (77%); a Stanford GSB study it cites found AI-embedded accounting software cut the monthly close by 7.5 days at 79 SMEs.",
+          "url": "https://www.bearingpoint.com/en/insights-events/insights/ai-is-forcing-the-finance-function-to-rethink-its-model-not-just-its-tools/",
+          "source": "bearingpoint.com"
+        },
+        {
+          "n": 9,
+          "section": "finance",
+          "headline": "Trintech CFO: AI governance in finance is lagging as agents go rogue",
+          "summary": "Nov 17: Trintech CFO Omar Choucair warns finance teams need controls and review processes before autonomous agents touch financial operations, citing a OneTrust survey finding 47% of leaders call their AI governance reactive, fragmented, slow or manual.",
+          "url": "https://financechief.com/news/trintech-cfo-says-ai-governance-in-finance-is-essential",
+          "source": "financechief.com"
+        },
+        {
+          "n": 10,
+          "section": "finance",
+          "headline": "A solo accounting firm built its own Claude agents for close and reporting",
+          "summary": "Reported Nov 16: Island Waters Accounting connected Claude to client QuickBooks Online and Xero books via NumbersGame, cutting monthly accounting and reporting from 10-15 hours to 1-2, with human approval before any write.",
+          "url": "https://cbherald.com/island-waters-accounting-uses-numbersgame-to-build-its-own-ai-agents-for-close-reporting-and-cfo-advisory/",
+          "source": "cbherald.com"
+        }
+      ]
+    },
+    {
       "date": "2026-11-16",
       "label": "Monday, November 16, 2026",
-      "latest": true,
+      "latest": false,
       "items": [
         {
           "n": 1,
