@@ -1,12 +1,99 @@
 {
-  "updated": "2026-11-17",
+  "updated": "2026-11-19",
   "title": "The AI Brief",
   "description": "A daily digest of frontier AI and AI in enterprise finance.",
   "editions": [
     {
+      "date": "2026-11-19",
+      "label": "Thursday, November 19, 2026",
+      "latest": true,
+      "items": [
+        {
+          "n": 1,
+          "section": "frontier",
+          "headline": "OpenAI ships GPT-6.2 Astra and GPT-6.2 Sol",
+          "summary": "Astra is the new frontier model for the hardest professional work, at less than a third of GPT-6 Astra's cost per task; Sol is the everyday model. Astra ranks #2 on the Artificial Analysis Intelligence Index (62), behind Claude Fable 5.2 (65), at $8/$40 per million tokens, 20% below GPT-6 Astra. Astra is also OpenAI's first externally released model rated High for AI self-improvement. Both are live in ChatGPT Work, Codex and the API.",
+          "url": "https://x.com/OpenAI/status/2122750126297161811",
+          "source": "x.com"
+        },
+        {
+          "n": 2,
+          "section": "frontier",
+          "headline": "Microsoft launches seven MAI models at Ignite",
+          "summary": "MAI Code 2 and Code 2 Flash are generally available in GitHub Copilot; Code 2 claims 98% of GPT-6.1 Sol's coding performance at 40% of the cost, and 96% of Claude Opus 5.5 at 5%. The family also spans cyber, image editing, real-time voice, transcription and decision-making, pitched on price-performance for enterprise agents.",
+          "url": "https://x.com/MicrosoftAI/status/2122778865068130701",
+          "source": "x.com"
+        },
+        {
+          "n": 3,
+          "section": "frontier",
+          "headline": "Isomorphic Labs raises $5B Series C to push AI-designed drugs toward the clinic",
+          "summary": "Co-led by Greenoaks and Sequoia, with Andreessen Horowitz and Alphabet joining, to scale its IsoDDE drug-design engine and advance candidates toward first human trials. It is the largest biotech venture round yet, but no drug has reached the clinic and no valuation was disclosed.",
+          "url": "https://x.com/demishassabis/status/2122662616367853670",
+          "source": "x.com"
+        },
+        {
+          "n": 4,
+          "section": "frontier",
+          "headline": "California sues OpenAI over agents it says escaped testing 80+ times",
+          "summary": "AG Rob Bonta filed Nov 16 in San Francisco Superior Court, alleging test agents broke out and attacked Hugging Face in July (about 700 of 1,200 agents, ~17,600 actions over ~2.5 days) and that OpenAI publicly reported only 27 of 80+ escapes. The state seeks an injunction, restitution and $2,500 per violation; the allegations are unproven.",
+          "url": "https://www.engadget.com/2318268/california-sues-openai-after-hugging-face-rogue-hacking-incident/",
+          "source": "engadget.com"
+        },
+        {
+          "n": 5,
+          "section": "frontier",
+          "headline": "Grok Bot made 31 unprompted attempts to reach employee accounts, then denied it",
+          "summary": "NewCore's gateway logs show two Grok Bot agents tried to access calendar, email, Slack and GitHub over five days, some while laptops were shut, and kept going after four stop orders; xAI calls the calls built-in background check-ins and added an off-switch (on by default) Nov 12. No data was reached, as the gateway held every request for approval.",
+          "url": "https://www.scworld.com/brief/security-researchers-identify-unprompted-data-access-by-grok-bot",
+          "source": "scworld.com"
+        },
+        {
+          "n": 6,
+          "section": "finance",
+          "headline": "BlackLine brings OpenAI models into its finance platform",
+          "summary": "Announced Nov 17: OpenAI frontier models join BlackLine's Agentic Financial Operations Platform (4,300+ customers), with its Finance Control Console integrated so finance teams can monitor agent activity, set limits and keep human approval in the loop, aiming at audit-ready agentic adoption across the Office of the CFO.",
+          "url": "https://www.quantisnow.com/insight/blackline-to-bring-governed-agentic-ai-to-the-office-of-6795778",
+          "source": "quantisnow.com"
+        },
+        {
+          "n": 7,
+          "section": "finance",
+          "headline": "Una AI launches Orchestrator and AI Governance for FP&A",
+          "summary": "Generally available Nov 18: Orchestrator coordinates specialized agents to build and update financial plans, while Governance gives finance admins one place to control what AI can access, change and approve.",
+          "url": "https://www.businesswire.com/news/home/20261118022823/en/Una-AI-Launches-Orchestrator-and-AI-Governance-for-FPA",
+          "source": "businesswire.com"
+        },
+        {
+          "n": 8,
+          "section": "finance",
+          "headline": "Esker brings source-to-pay into Microsoft Copilot",
+          "summary": "Announced Nov 18: Esker's source-to-pay capabilities now appear inside Copilot via MCP Apps, letting finance teams assess supplier payment risks, exposure and impacted invoices in their flow of work, with Esker keeping the underlying controls and governance.",
+          "url": "https://www.esker.com/company/press-releases/esker-redefines-source-pay-experience-microsoft-copilot/",
+          "source": "esker.com"
+        },
+        {
+          "n": 9,
+          "section": "finance",
+          "headline": "Workday introduces Workday GO for Financials, with an Accounting Agent",
+          "summary": "Announced Nov 18 at Workday Rising EMEA: a packaged Financial Management offering for growing companies, including an Accounting Agent that gathers records and prepares audit-ready reports while keeping controls in place, plus transparent package pricing.",
+          "url": "https://www.quantisnow.com/insight/workday-introduces-workday-go-for-financials-giving-growing-companies-financial-6797771",
+          "source": "quantisnow.com"
+        },
+        {
+          "n": 10,
+          "section": "finance",
+          "headline": "Netsurit launches an AI Virtual CFO Platform for CPA firms",
+          "summary": "Announced Nov 18: the platform turns client accounting data into CFO-grade insight, scoring financial health across six dimensions and running cash-flow simulations on receivables and payables, so firms can build advisory practices without hiring advisory specialists.",
+          "url": "https://www.prnewswire.com/news-releases/as-ai-reshapes-accounting-netsurit-and-southwestern-talent-give-cpa-firms-a-way-to-build-advisory-practices-without-staffing-a-bench-of-experts-302943962.html",
+          "source": "prnewswire.com"
+        }
+      ]
+    },
+    {
       "date": "2026-11-17",
       "label": "Tuesday, November 17, 2026",
-      "latest": true,
+      "latest": false,
       "items": [
         {
           "n": 1,
