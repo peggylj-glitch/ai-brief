@@ -1,12 +1,99 @@
 {
-  "updated": "2026-11-19",
+  "updated": "2026-11-20",
   "title": "The AI Brief",
   "description": "A daily digest of frontier AI and AI in enterprise finance.",
   "editions": [
     {
+      "date": "2026-11-20",
+      "label": "Friday, November 20, 2026",
+      "latest": true,
+      "items": [
+        {
+          "n": 1,
+          "section": "frontier",
+          "headline": "Google DeepMind launches Gemini 4 Neon",
+          "summary": "Slotted between Carbon and Hydrogen, Neon pairs frontier-level intelligence with fast task completion for software engineering, knowledge work and science. It scores 61 on the Artificial Analysis Intelligence Index (#3 overall) at $3/$15 per million tokens with a 1M-token context, and is live in the Gemini API, AI Studio, the Gemini app for Pro/Ultra, and Antigravity.",
+          "url": "https://x.com/GoogleDeepMind/status/2123167884411077030",
+          "source": "x.com"
+        },
+        {
+          "n": 2,
+          "section": "frontier",
+          "headline": "Anthropic prices its IPO at $83, trading starts today as ANT",
+          "summary": "The Claude maker priced 980 million Class A shares at $83, above its $70-$78 range, for an ~$81.3B offering, with Nasdaq trading under the ticker ANT expected to begin Nov 19 and closing Nov 20. It is the largest AI IPO to date and the first public-market price for a frontier lab.",
+          "url": "https://x.com/AnthropicAI/status/2123196808675405860",
+          "source": "x.com"
+        },
+        {
+          "n": 3,
+          "section": "frontier",
+          "headline": "Google DeepMind opens Genie 4 in Project Genie",
+          "summary": "Its most realistic interactive world model yet is now available to eligible Google AI Ultra subscribers, with native audio, real-time editing, and a new agent that helps build virtual worlds; Pro members join a waitlist. The same update extends Genie 3 sessions to 3 minutes.",
+          "url": "https://x.com/GoogleDeepMind/status/2123117733709586849",
+          "source": "x.com"
+        },
+        {
+          "n": 4,
+          "section": "frontier",
+          "headline": "Musk: Grok 4.8 soft-rolled to some Bot users, general release 1-2 weeks out",
+          "summary": "Elon Musk said the new model has had a limited soft rollout to Grok Bot users but needs another week or two of polish before general release. He also said the team dropped JAX and SGLang and rewrote the RL and inference stack from scratch in C/C++, and that Grok 5 could follow in two to three months.",
+          "url": "https://x.com/elonmusk/status/2122758986483269956",
+          "source": "x.com"
+        },
+        {
+          "n": 5,
+          "section": "frontier",
+          "headline": "OpenAI: coding agents are doing longer research tasks, and labs should report self-improvement",
+          "summary": "In a new 'Research acceleration' report, OpenAI says its researchers' AI use keeps rising exponentially and agents are completing longer tasks, while human involvement stays central and safety/alignment effort is growing faster than any other research area. It argues AI labs should be required to track and publicly report indicators of recursive self-improvement.",
+          "url": "https://x.com/OpenAI/status/2123191365983248653",
+          "source": "x.com"
+        },
+        {
+          "n": 6,
+          "section": "finance",
+          "headline": "OpenAI launches ChatGPT for Accounting",
+          "summary": "Announced Nov 18: a first-party Accounting plugin plus eight partner integrations (QuickBooks, Xero, Oracle NetSuite, BILL, FreshBooks, Rillet, Campfire) that draft invoices and journal entries, reconcile bank transactions, and prepare month-end reports and audit prep inside ChatGPT, with a human still signing off every final entry. Available on ChatGPT Work and Business plans.",
+          "url": "https://dataconomy.com/2026/11/19/openai-launches-chatgpt-for-accounting-with-finance/",
+          "source": "dataconomy.com"
+        },
+        {
+          "n": 7,
+          "section": "finance",
+          "headline": "finstory.ai launches Reeve, an AI FP&A manager",
+          "summary": "Launched Nov 19: Reeve connects to ERPs (NetSuite, Rillet, SAP), operational systems and Excel models, pulls the month's actuals, spots variances and drafts the board story page by page, with every figure traceable to its source and a human asked when the data can't explain a variance. Free 21-day trial; plans from $199/month.",
+          "url": "https://www.morningstar.com/news/pr-newswire/20261119cl01387/finance-jobs-are-changing-finstoryai-launches-an-ai-fpa-manager-that-builds-board-ready-financial-stories-for-cfos",
+          "source": "morningstar.com"
+        },
+        {
+          "n": 8,
+          "section": "finance",
+          "headline": "Thomson Reuters extends CoCounsel agentic AI into tax and compliance",
+          "summary": "Presented Nov 17 at Synergy: new CoCounsel workflows for direct tax and transactional compliance that prepare workpapers with research beside each calculation, carry work into ONESOURCE Tax Provision, check every invoice before it reaches the tax authority, and prefill returns for professional review. Rollout begins in 2027; its ONESOURCE Indirect Compliance already claims up to 65% less routine reporting time.",
+          "url": "https://blog.insightfulaccountant.com/thomson-reuters-brings-cocounsel-agentic-ai-to-tax-and-compliance",
+          "source": "blog.insightfulaccountant.com"
+        },
+        {
+          "n": 9,
+          "section": "finance",
+          "headline": "KPMG launches KPMG Clara intelligence (KCi) for AI-enabled audit in the US",
+          "summary": "Announced Nov 17: KCi embeds governed AI agents into the audit workflow to draft risk assessments and first-pass documentation, analyze 100% of transaction populations in selected areas, and surface anomalies, with auditors keeping review and final judgment. KPMG aims to deploy it in all private-company audits in 2027; it is already in use on 125+ US teams and 500 globally, and has shortened some engagements by up to 3.5 weeks.",
+          "url": "https://www.newsfilecorp.com/release/324427",
+          "source": "newsfilecorp.com"
+        },
+        {
+          "n": 10,
+          "section": "finance",
+          "headline": "72% of multinationals are consolidating VAT and eInvoicing onto connected platforms",
+          "summary": "Fintua and G2 research (102 interviews, Oct 2026) released Nov 18: 46% are actively consolidating and 27% already run a connected platform across most or all markets, while 77% say fragmented compliance carries a material cost. Buyers want proof on their own data before trusting automation, and human oversight stays with final filings, payments and exceptions.",
+          "url": "https://www.globenewswire.com/news-release/2026/11/18/3406002/0/en/fintua-and-g2-release-new-research-revealing-72-of-multinationals-are-moving-to-connected-compliance.html",
+          "source": "globenewswire.com"
+        }
+      ]
+    },
+    {
       "date": "2026-11-19",
       "label": "Thursday, November 19, 2026",
-      "latest": true,
+      "latest": false,
       "items": [
         {
           "n": 1,
