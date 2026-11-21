@@ -1,12 +1,91 @@
 {
-  "updated": "2026-11-21",
+  "updated": "2026-11-22",
   "title": "The AI Brief",
   "description": "A daily digest of frontier AI and AI in enterprise finance.",
   "editions": [
     {
+      "date": "2026-11-22",
+      "label": "Sunday, November 22, 2026",
+      "latest": true,
+      "items": [
+        {
+          "n": 1,
+          "section": "frontier",
+          "headline": "Anthropic mathematician claims Claude proved the Riemann Hypothesis",
+          "summary": "Levent Alpöge, a mathematician on Anthropic's technical staff, said Friday he believes he and Claude found a proof of the Riemann Hypothesis (and the generalized version), releasing it as roughly 175,000 Lean 4 files. The Wall Street Journal reports the Lean verification community finished checking the code and stands behind it, while other outlets stress it has not been peer-reviewed; if it holds, it would be the first Millennium Prize problem claimed through a machine-checked proof.",
+          "url": "https://www.scientificamerican.com/article/anthropic-mathematician-claims-to-prove-riemann-hypothesis-most-famous-problem-in-all-of-math/",
+          "source": "scientificamerican.com"
+        },
+        {
+          "n": 2,
+          "section": "frontier",
+          "headline": "Thinking Machines ships Inkling 2 Mini, an open looped transformer that runs on a laptop",
+          "summary": "The 26.4B-parameter mixture-of-experts model (3.4B active per token) reuses its middle layers three times per token, fitting in about 20GB under Apache 2.0 with a 1M-token context. It leads open models under 100B parameters on agentic coding (48.2% on DeepSWE v1.1) and ties Qwen3.8 27B on Artificial Analysis's Intelligence Index at roughly a sixth of the cost per task.",
+          "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+          "source": "thinkingmachines.ai"
+        },
+        {
+          "n": 3,
+          "section": "frontier",
+          "headline": "Gemini now turns prompts into GIFs",
+          "summary": "Google added GIF generation to the Gemini app, powered by Gemini Omni 1.2 Flash: roughly 3-second looping animations from text prompts, photos or video clips. It is free in eight countries (US, Japan, Korea, Australia, Canada, UK, Germany, France) for Google AI subscribers, rolling out gradually.",
+          "url": "https://alphasignal.ai/news/google-s-gemini-now-turns-plain-text-prompts-into-custom-gifs",
+          "source": "alphasignal.ai"
+        },
+        {
+          "n": 4,
+          "section": "frontier",
+          "headline": "Meta's Muse Wonder tops Legora's November legal benchmark",
+          "summary": "Muse Wonder 1.0 earned the highest overall quality score in Legora's November BAR benchmark, which tests 21 models on end-to-end legal work, leading analysis and answering, extraction, drafting and editing. GPT-6.2 Astra led comparison and review tasks at 20% below average cost per case, while GPT-6.2 Sol delivered above-average quality at 78% below average cost.",
+          "url": "https://www.fathom.news/muse-wonder-legal-benchmark/",
+          "source": "fathom.news"
+        },
+        {
+          "n": 5,
+          "section": "frontier",
+          "headline": "Runway shows its Agent turning a short conversation into a finished video",
+          "summary": "Runway's new demo positions Runway Agent as the way to make videos: describe what you want in a brief chat and it plans, picks models per scene and assembles the edited result. The pitch is video creation without touching a timeline, aimed at marketers and creators rather than editors.",
+          "url": "https://news.johnsavageai.com/p/daily-ai-brief-nov-21-2026/",
+          "source": "johnsavageai.com"
+        },
+        {
+          "n": 6,
+          "section": "finance",
+          "headline": "Finance teams' AI-agent adoption jumped to 41%, the biggest gain of any function",
+          "summary": "Zapier's survey of 513 US business leaders (Sept 16-21) found finance AI-agent adoption rose to 41% in 2026 from 24% in 2025, the largest year-over-year increase among the functions tracked. Finance had lagged on accuracy worries; Zapier's CFO credits better model accuracy and tighter Excel and Sheets integration, though only 30% of adopters say agents finish most tasks unaided.",
+          "url": "https://www.cfodive.com/news/finance-teams-ramp-agentic-ai-adoption-zapier-survey/874855/",
+          "source": "cfodive.com"
+        },
+        {
+          "n": 7,
+          "section": "finance",
+          "headline": "Genpact's Onyx agentic platform goes live, starting with accounts payable",
+          "summary": "Announced Nov 16, Genpact Onyx is a platform for building, running and governing AI agents in enterprise operations, with its first solution the Accounts Payable Suite (capture, three-way matching, duplicate detection, supplier-query handling). Genpact projects up to 80% touchless processing and 90% of supplier queries resolved automatically, but those are its own estimates, not customer results, and it names no launch customer.",
+          "url": "https://aiagentupdate.com/post/genpact-onyx-ga-2026-11-17",
+          "source": "aiagentupdate.com"
+        },
+        {
+          "n": 8,
+          "section": "finance",
+          "headline": "EY: bad data, not models, is the biggest blocker for tax and finance AI",
+          "summary": "EY's 2026 Tax and Finance Operations Survey of 1,600 CFOs and senior leaders across 30 jurisdictions (published Nov 11) finds 64% cite insufficient AI-ready data as the top barrier to advancing AI. Expectations have flipped fast: 77% now expect AI agents to benefit the tax function, up from 21% a year ago, yet 71% remain at a nascent or exploratory stage.",
+          "url": "https://www.ey.com/en_gl/newsroom/2026/11/ai-ambition-outpaces-data-readiness-in-tax-and-finance-functions-ey-study-finds",
+          "source": "ey.com"
+        },
+        {
+          "n": 9,
+          "section": "finance",
+          "headline": "Procurement AI roundup: Pactum and SpendHQ ship agent features",
+          "summary": "Pactum launched an Intake Agent that lets employees describe what they need to buy in plain language, and SpendHQ launched Savings Radar, which turns fragmented procurement data into a prioritized savings list. Both target the same gap: procurement work still starts with forms and spreadsheets rather than a conversation.",
+          "url": "https://cporising.com/2026/11/18/procuretech-pulse-november-18-2026/",
+          "source": "cporising.com"
+        }
+      ]
+    },
+    {
       "date": "2026-11-21",
       "label": "Saturday, November 21, 2026",
-      "latest": true,
+      "latest": false,
       "items": [
         {
           "n": 1,
