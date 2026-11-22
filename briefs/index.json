@@ -1,12 +1,99 @@
 {
-  "updated": "2026-11-22",
+  "updated": "2026-11-23",
   "title": "The AI Brief",
   "description": "A daily digest of frontier AI and AI in enterprise finance.",
   "editions": [
     {
+      "date": "2026-11-23",
+      "label": "Monday, November 23, 2026",
+      "latest": true,
+      "items": [
+        {
+          "n": 1,
+          "section": "frontier",
+          "headline": "OpenAI's 3.5-hour outage failed 75% of ChatGPT and API requests",
+          "summary": "Routine Postgres maintenance on Nov 21 crashed both auth read replicas, failing requests at rates peaking at 75% for 211 minutes; OpenAI published a same-day postmortem and paused similar maintenance.",
+          "url": "https://aiweekly.co/alerts/openai-postgres-replica-failure-peaked-api-chatgpt-errors-at-75",
+          "source": "aiweekly.co"
+        },
+        {
+          "n": 2,
+          "section": "frontier",
+          "headline": "Microsoft puts GPT-6.2 Sol in Copilot worldwide",
+          "summary": "GPT-6.2 Sol rolls out to eligible users in Copilot Chat, Cowork, Studio and Word, Excel and PowerPoint; Astra is generally available only in Cowork and Studio.",
+          "url": "https://windowsforum.com/news/microsoft-copilot-adds-gpt-6-2-sol-and-astra-availability-billing-and-admin-controls.453493/",
+          "source": "windowsforum.com"
+        },
+        {
+          "n": 3,
+          "section": "frontier",
+          "headline": "METR: models are improving faster than safety tests can keep up",
+          "summary": "METR's Time Horizon 2 update finds autonomous task horizons doubling every ~3.6 months, up to 27 hours, while research judgment lags; public evidence can no longer rule out drastic AI R&D acceleration.",
+          "url": "https://the-decoder.com/ai-is-getting-better-faster-than-experts-can-reliably-test-whether-new-systems-are-safe-metr-warns/",
+          "source": "the-decoder.com"
+        },
+        {
+          "n": 4,
+          "section": "frontier",
+          "headline": "Tencent releases Hy4 open weights: 770B MoE, 1M context",
+          "summary": "Tencent published the full Hy4 weights on Nov 20: a natively multimodal 770B MoE with 49B active per token and ~1M-token context, under Tencent's custom Hy License, not Apache 2.0.",
+          "url": "https://technode.com/2026/11/20/tencent-releases-hy4-model-weights-with-million-token-context/",
+          "source": "technode.com"
+        },
+        {
+          "n": 5,
+          "section": "frontier",
+          "headline": "Google DeepMind's Genie 4 world model reaches general availability",
+          "summary": "Genie 4 opened Nov 18 in Project Genie for AI Ultra subscribers and Nov 19 on the Gemini API, generating interactive real-time worlds with native audio from text or image prompts.",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+          "source": "blog.google"
+        },
+        {
+          "n": 6,
+          "section": "finance",
+          "headline": "Stripe lets agents move money in Treasury, with approvals attached",
+          "summary": "Stripe's Nov 19 public preview gives AI agents write access in Treasury to transfer funds, convert currencies and pay vendors via MCP; refunds, payouts and transfers need human approval by default.",
+          "url": "https://www.aiandtech.news/article/stripe-adds-agent-money-movement-to-treasury-in-public-preview",
+          "source": "aiandtech.news"
+        },
+        {
+          "n": 7,
+          "section": "finance",
+          "headline": "KPMG ran a full audit with 100+ AI agents, and they asked better questions",
+          "summary": "In Project Exponential, KPMG UK ran 100+ AI agents through every phase of a parallel audit of an unnamed FTSE 250 company; agents dug deeper in places, but the experiment was not relied on for the formal opinion.",
+          "url": "https://www.computerworld.com/article/4251042/ai-asked-better-questions-than-auditors-in-large-scale-kpmg-test.html",
+          "source": "computerworld.com"
+        },
+        {
+          "n": 8,
+          "section": "finance",
+          "headline": "BlackLine stacks three agentic finance moves in one week",
+          "summary": "BlackLine listed Verity AI on Claude Marketplace (Nov 16), announced governed agentic AI with OpenAI (Nov 17) and achieved AIUC-1 certification (Nov 18); Verity Accruals users report 80%+ close time savings.",
+          "url": "https://www.cpapracticeadvisor.com/2026/11/16/blackline-now-available-on-anthropics-claude-marketplace/194040/",
+          "source": "cpapracticeadvisor.com"
+        },
+        {
+          "n": 9,
+          "section": "finance",
+          "headline": "FloQast's Payroll JE agent turns each pay run into a ready-to-post entry",
+          "summary": "Launched Nov 11, the agent converts a final payroll register into a balanced, fully coded journal entry with a full audit file; a named approver must sign off and a person posts it.",
+          "url": "https://www.floqast.com/blog/payroll-journal-entry-automation",
+          "source": "floqast.com"
+        },
+        {
+          "n": 10,
+          "section": "finance",
+          "headline": "UK audit regulator: AI insights can threaten auditor independence",
+          "summary": "The FRC's Nov 16 guidance warns sharing AI-derived insights with audited clients can create independence threats, especially where the work sits outside the audit or is used to win more work.",
+          "url": "https://www.frc.org.uk/news-and-events/news/2026/11/new-guidance-supports-auditor-independence-when-using-technology-including-ai/",
+          "source": "frc.org.uk"
+        }
+      ]
+    },
+    {
       "date": "2026-11-22",
       "label": "Sunday, November 22, 2026",
-      "latest": true,
+      "latest": false,
       "items": [
         {
           "n": 1,
