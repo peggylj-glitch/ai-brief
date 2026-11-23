@@ -1,12 +1,99 @@
 {
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "title": "The AI Brief",
   "description": "A daily digest of frontier AI and AI in enterprise finance.",
   "editions": [
     {
+      "date": "2026-11-24",
+      "label": "Tuesday, November 24, 2026",
+      "latest": true,
+      "items": [
+        {
+          "n": 1,
+          "section": "frontier",
+          "headline": "OpenAI's chief scientist proposes shared limits on AI development, measured by perplexity",
+          "summary": "Jakub Pachocki's Nov 22 essay argues labs should agree on common development limits tied to perplexity until monitoring catches up, publishing OpenAI's internal log-perplexity curve; Altman backed it and Microsoft disclosed MAI-2 Base at 0.819 log-perplexity.",
+          "url": "https://www.thehindubusinessline.com/info-tech/openai-chief-scientist-proposes-industry-wide-limits-on-powerful-ai-models/article71733224.ece",
+          "source": "thehindubusinessline.com"
+        },
+        {
+          "n": 2,
+          "section": "frontier",
+          "headline": "Anthropic mathematician claims a Claude-assisted proof of the Riemann Hypothesis",
+          "summary": "Levent Alpöge posted Nov 20 that he and Claude found a proof, as Lean code; on Nov 21 the Lean and Mathlib communities said they had full confidence it is correct. It is formally verified, not peer-reviewed, with no readable proof published yet.",
+          "url": "https://www.mediapavilion.net/riemann-hypothesis-proof-anthropic-claude/",
+          "source": "mediapavilion.net"
+        },
+        {
+          "n": 3,
+          "section": "frontier",
+          "headline": "DeepMind's Gemini 4 agent teams cut quantum algorithm costs up to 290x, with Lean proofs",
+          "summary": "Gemini 4 agent teams found cheaper quantum algorithms for fusion, drug-design and basic quantum math, every gain checked in Lean and released open source; headline gains include 11.8x lower fusion cost and a 290x arcsin speedup.",
+          "url": "https://aiparabellum.com/deepmind-gemini-4-agents-cut-quantum-algorithm-costs/",
+          "source": "aiparabellum.com"
+        },
+        {
+          "n": 4,
+          "section": "frontier",
+          "headline": "NVIDIA unveils Rubin HPC, a 50,000+ CUDA-core GPU for science, due in 2028",
+          "summary": "Announced at SC26 on Nov 23, Rubin HPC targets scientific computing and AI-agent simulations, with sparse-data acceleration and seventh-generation NVLink; NVIDIA has published no independent performance figures yet.",
+          "url": "https://www.techedt.com/nvidia-unveils-rubin-hpc-gpu-with-more-than-50000-cuda-cores-launching-in-2028",
+          "source": "techedt.com"
+        },
+        {
+          "n": 5,
+          "section": "frontier",
+          "headline": "Gemini 4 Neon goes live on OpenRouter, with Google citing 32% lower task cost than Carbon",
+          "summary": "OpenRouter listed Gemini 4 Neon via Google Cloud for complex software engineering, knowledge work and science; Google reports it ranks No. 1 on the Artificial Analysis Coding Agent Index and costs 32% less per task than Carbon.",
+          "url": "https://ai123.com/newshub/18610",
+          "source": "ai123.com"
+        },
+        {
+          "n": 6,
+          "section": "finance",
+          "headline": "Bain: 77% of CFOs report unexpected agentic AI costs, but only 17% are highly concerned",
+          "summary": "Bain's Nov 23 survey of 150 CFOs and senior finance leaders finds 97% expect agentic AI spending to rise, yet only 10% capture nearly all related spending in formal cost reporting and just 30% have fully established agent spending limits.",
+          "url": "https://www.prnewswire.com/news-releases/77-of-cfos-and-finance-leaders-report-unexpected-agentic-ai-costs-but-only-17-are-highly-concernedbain--company-302947677.html",
+          "source": "prnewswire.com"
+        },
+        {
+          "n": 7,
+          "section": "finance",
+          "headline": "Finance teams' AI-agent adoption jumps to 41% from 24% in a year",
+          "summary": "Zapier's survey of 513 US business leaders, reported Nov 17, found finance had the largest year-over-year gain of any function; only 30% of leaders at agent-using organisations say agents complete more than 60% of tasks without human intervention.",
+          "url": "https://www.cfodive.com/news/finance-teams-ramp-agentic-ai-adoption-zapier-survey/874855/",
+          "source": "cfodive.com"
+        },
+        {
+          "n": 8,
+          "section": "finance",
+          "headline": "Thomson Reuters brings CoCounsel agentic AI to tax and transactional compliance",
+          "summary": "Announced Nov 17, new workflows unify indirect tax, Pagero e-invoicing and global trade to check invoices before they reach tax authorities, and prepare direct-tax quarter-end workpapers; rollout begins in 2027, with professionals keeping sign-off.",
+          "url": "https://www.thomsonreuters.com/en/press-releases/2026/november/thomson-reuters-brings-cocounsel-agentic-ai-to-the-tax-and-compliance-products-professionals-trust",
+          "source": "thomsonreuters.com"
+        },
+        {
+          "n": 9,
+          "section": "finance",
+          "headline": "FreshBooks puts ChatGPT for Accounting in front of small-business owners",
+          "summary": "The Nov 19 plugin lets owners ask ChatGPT about live FreshBooks numbers, such as missing receipts before the close, overdue invoices and whether sales tax ties out; the connection is read-only.",
+          "url": "https://rss.globenewswire.com/news-release/2026/11/19/3406729/0/en/freshbooks-partners-with-openai-to-release-chatgpt-for-accounting-bringing-ai-innovation-to-small-business-owners.html",
+          "source": "globenewswire.com"
+        },
+        {
+          "n": 10,
+          "section": "finance",
+          "headline": "FP&A survey: 65% say AI is changing finance work, but only 14% run agents live",
+          "summary": "The FP&A Guy and CFO Shortlist's State of the Finance Stack 2026, surveying 176 leaders from May to August, finds 55% use no agentic AI at all and 53% have no dedicated planning tool; teams live with agents rate tooling 8.2/10 vs 5.9/10.",
+          "url": "https://www.thefpandaguy.com/",
+          "source": "thefpandaguy.com"
+        }
+      ]
+    },
+    {
       "date": "2026-11-23",
       "label": "Monday, November 23, 2026",
-      "latest": true,
+      "latest": false,
       "items": [
         {
           "n": 1,
