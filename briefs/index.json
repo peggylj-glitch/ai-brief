@@ -1,12 +1,99 @@
 {
-  "updated": "2026-11-26",
+  "updated": "2026-11-27",
   "title": "The AI Brief",
   "description": "A daily digest of frontier AI and AI in enterprise finance.",
   "editions": [
     {
+      "date": "2026-11-27",
+      "label": "Friday, November 27, 2026",
+      "latest": true,
+      "items": [
+        {
+          "n": 1,
+          "section": "frontier",
+          "headline": "OpenAI starts testing Private Inference, keeping prompts sealed while models run",
+          "summary": "Sam Altman said Nov 25 that OpenAI is testing Private Inference, part of OpenAI Private Intelligence, with a small group of customers: confidential computing keeps prompts and responses encrypted even while the model processes them, so even OpenAI can't read them. It matters because privacy is the blocker for using frontier models on sensitive business work, and ZDR with Private Safety Processing lets safety reviews run without staff seeing the content.",
+          "url": "https://x.com/sama/status/2125638790593274259",
+          "source": "x.com"
+        },
+        {
+          "n": 2,
+          "section": "frontier",
+          "headline": "FCC authorizes SpaceX to launch 1 million AI data-center satellites",
+          "summary": "The FCC on Nov 25 cleared SpaceX's \"Starmind\" constellation of up to 1 million orbital compute modules, the first US authorization for space-based data centers, to meet growing AI compute demand. The first satellite must launch by Nov 2033 and half the constellation by 2038; astronomers and rivals objected over debris and interference, and the hardware doesn't exist yet.",
+          "url": "https://www.reuters.com/business/media-telecom/us-authorizes-spacex-deploy-1-million-satellites-data-centers-space-2026-11-25/",
+          "source": "reuters.com"
+        },
+        {
+          "n": 3,
+          "section": "frontier",
+          "headline": "Anthropic rebuilt its Messages API in Rust with Claude agents, cutting CPU per request ~70%",
+          "summary": "Anthropic published Nov 25 how teams of Claude agents migrated the API that serves every Claude request from Python to Rust, using the production API itself as a verifier via shadow comparisons. The new version uses about 70% less CPU per request and cuts median time to first token ~20%, shipped without downtime; by May 2026 Claude was writing over 80% of Anthropic's merged code.",
+          "url": "https://www.anthropic.com/research/migrating-api-to-rust",
+          "source": "anthropic.com"
+        },
+        {
+          "n": 4,
+          "section": "frontier",
+          "headline": "Cognition releases SWE-2.1, doubling its coding scores and adding a cyber variant",
+          "summary": "Released Nov 24, SWE-2.1 is trained with pure RL on Moonshot's Kimi K3 and scores 50.0 on Terminal-Bench 4.1 (up from 24.2) and 80% on ExploitBench; a Cyber variant with looser safeguards goes to Devin Security, and a Cerebras-backed Lightning version runs at 600 tokens/sec. Free for Devin Pro, Max and Teams through Dec 8.",
+          "url": "https://cognition.com/blog/swe-2-1?ref=explainx",
+          "source": "cognition.com"
+        },
+        {
+          "n": 5,
+          "section": "frontier",
+          "headline": "Nvidia halts AI server shipments to four Southeast Asian countries",
+          "summary": "The FT reported Nov 26 that Nvidia told Dell, Supermicro and other partners to stop shipping servers to Malaysia, Singapore, Thailand and Indonesia after new US export controls took effect Nov 19 requiring licences for advanced chips to those countries. It targets routes Chinese firms allegedly use to access US compute remotely; it is unclear whether the halt is temporary.",
+          "url": "https://www.reuters.com/world/asia-pacific/nvidia-halts-chip-shipments-southeast-asia-ft-reports-2026-11-26/",
+          "source": "reuters.com"
+        },
+        {
+          "n": 6,
+          "section": "finance",
+          "headline": "Finance leads all functions in AI-agent adoption, up to 41% from 24%",
+          "summary": "Zapier's survey of 513 US enterprise leaders (reported Nov 17 by CFO Dive) found finance departments using AI agents rose to 41% in 2026 from 24% in 2025, the biggest jump of any function tracked. Only 30% of leaders say agents complete more than 60% of tasks unaided, so humans still supervise most agent work.",
+          "url": "https://www.cfodive.com/news/finance-teams-ramp-agentic-ai-adoption-zapier-survey/874855/",
+          "source": "cfodive.com"
+        },
+        {
+          "n": 7,
+          "section": "finance",
+          "headline": "CFOs rank reliable accounts over a faster close, Sixthfin research finds",
+          "summary": "In a survey of 303 CFOs at UK companies with 250+ staff (published Nov 25), 67% named improving account reliability their top close priority, ahead of 57% who named reducing delays. The takeaway for close-automation buyers: success is measured by explainable balances and review capacity, not just the calendar.",
+          "url": "https://techtimesnewyork.com/article/959111952-large-group-cfos-prioritize-account-reliability-over-close-speed-sixthfin-financial-close-automation-research-finds-67-of-303-surveyed-cfos-put",
+          "source": "techtimesnewyork.com"
+        },
+        {
+          "n": 8,
+          "section": "finance",
+          "headline": "NetSuite's November release lets Claude and other AI clients work directly on ERP data",
+          "summary": "The release adds an AI Connector Service MCP server so MCP-compatible AI clients can query and act on NetSuite data, plus Ask Oracle upgrades for the close, including report-by-ID queries and drafting SuiteFlow workflows from plain language. It puts the close stack on the same agent protocol Anthropic and OpenAI are standardizing around.",
+          "url": "https://members.auditfriendly.co/p/edition-2026-11-24",
+          "source": "members.auditfriendly.co"
+        },
+        {
+          "n": 9,
+          "section": "finance",
+          "headline": "OpenAI launches ChatGPT for Accounting, plugging ChatGPT into the ledger",
+          "summary": "Launched Nov 18, the Accounting plugin plus eight partner connectors (QuickBooks, Xero, Oracle NetSuite, BILL, FreshBooks, Rillet, Campfire) let finance teams draft reconciliations, process invoices and prep month-end reports in chat. QuickBooks and Campfire can write back to the books with human approval; Xero, BILL and FreshBooks are read-only.",
+          "url": "https://dataconomy.com/2026/11/19/openai-launches-chatgpt-for-accounting-with-finance/",
+          "source": "dataconomy.com"
+        },
+        {
+          "n": 10,
+          "section": "finance",
+          "headline": "Una AI ships an FP&A orchestrator with governance over what agents can touch",
+          "summary": "Announced Nov 18 at FATE, Una AI Orchestrator lets FP&A teams hand multi-step planning work to coordinated agents (turn an Excel budget into a model, load ERP actuals, set up review), while Una AI Governance controls what AI can access, change and approve, including via Claude and ChatGPT over MCP.",
+          "url": "https://www.financialcontent.com/article/bizwire-2026-11-18-una-ai-launches-orchestrator-and-ai-governance-for-fp-and-a",
+          "source": "financialcontent.com"
+        }
+      ]
+    },
+    {
       "date": "2026-11-26",
       "label": "Thursday, November 26, 2026",
-      "latest": true,
+      "latest": false,
       "items": [
         {
           "n": 1,
