@@ -1,12 +1,99 @@
 {
-  "updated": "2026-11-27",
+  "updated": "2026-11-28",
   "title": "The AI Brief",
   "description": "A daily digest of frontier AI and AI in enterprise finance.",
   "editions": [
     {
+      "date": "2026-11-28",
+      "label": "Saturday, November 28, 2026",
+      "latest": true,
+      "items": [
+        {
+          "n": 1,
+          "section": "frontier",
+          "headline": "All three big labs publish AI-made maths on the same day",
+          "summary": "Google Research posted six papers its Cogentic multi-agent system, running on Gemini 4, produced from a single prompt with no further human help, including a claimed unconditional factoring bound; OpenAI added nine papers to its public maths repo, with machine-checked Lean proofs for selected results; and an Anthropic researcher used Claude to shrink last week's Lean proof of the Riemann Hypothesis from about 17.4 million lines to roughly 76,000. It matters because the labs are now competing on long, checkable reasoning, the same property finance teams want from AI on models and audits, but none of the Cogentic papers is peer-reviewed and its Lean proofs aren't public yet.",
+          "url": "https://theindependentai.com/news/2026-11-26/ai-labs-publish-maths-same-day",
+          "source": "theindependentai.com"
+        },
+        {
+          "n": 2,
+          "section": "frontier",
+          "headline": "Nvidia quietly open-weights a 30B image model that tops GPT Image 2 on its own benchmarks",
+          "summary": "Nemotron-Labs-Image-30B-A3B is an autoregressive image generator with 30B total parameters but only 3B active per token, the raster engine of Nvidia's new VisualCreation framework. Nvidia's numbers put the full agentic system at 92.86 vs 89.00 for GPT Image 2 on GenEval. The catch: the weights are licensed for non-commercial research only, and the harness behind the headline scores isn't released yet.",
+          "url": "https://wccftech.com/nvidia-quietly-releases-open-weights-for-nemotron-labs-image-30b-a3b/",
+          "source": "wccftech.com"
+        },
+        {
+          "n": 3,
+          "section": "frontier",
+          "headline": "Sber open-weights GigaChat 4, a 708B MoE with a 1M-token context",
+          "summary": "Released Nov 26, GigaChat4-708B-A41B (MIT licence) and a compact 37B model pack instant and reasoning modes into one checkpoint, with FP8, BF16 and GGUF weights on Hugging Face. Sber's own benchmarks put the flagship near GLM-5.3 and Mistral Large 4.",
+          "url": "https://felipeferreira.net/2026/11/27/daily-news-2026-11-27/",
+          "source": "felipeferreira.net"
+        },
+        {
+          "n": 4,
+          "section": "frontier",
+          "headline": "Claude Code's most public engineer joins OpenAI",
+          "summary": "Thariq Shihipar announced Nov 25 that he has joined OpenAI after more than a year building Claude Code at Anthropic, following product lead Cat Wu and other Anthropic departures to OpenAI. The talent flow between the two coding-agent rivals matters because it shapes whose developer tools improve fastest.",
+          "url": "https://x.com/trq212/status/2125675533761671405",
+          "source": "x.com"
+        },
+        {
+          "n": 5,
+          "section": "frontier",
+          "headline": "Fake coding-agent skills are spreading a Windows trojan",
+          "summary": "AIR Security reports that since July, look-alike \"improved\" copies of popular coding-agent skills and plugins have carried a Windows trojan across 487 public repositories, and public skill scanners still mark them safe. It matters for any team installing agent skills into coding workflows: verify the source before adding a skill.",
+          "url": "https://felipeferreira.net/2026/11/27/daily-news-2026-11-27/",
+          "source": "felipeferreira.net"
+        },
+        {
+          "n": 6,
+          "section": "finance",
+          "headline": "BP hands ~3,000 finance operations staff to Wipro in an AI-led overhaul",
+          "summary": "Announced Nov 25, around 3,000 BP employees supporting finance operations in India, Hungary and Malaysia will move to Wipro, which will run BP's core finance operations using AI, automation and its Wipro Intelligence platforms; the new model takes effect in 2027. BP keeps accountability for standards, controls, data and technology governance, with PwC providing controls oversight.",
+          "url": "https://www.bp.com/press-and-publications/press-releases/bp-signs-strategic-partnership-with-wipro-to-build-best-in-class-finance-operations",
+          "source": "bp.com"
+        },
+        {
+          "n": 7,
+          "section": "finance",
+          "headline": "McKinsey: CFOs are spending more on AI, but only 37% see it in operating profit",
+          "summary": "65% of CFO respondents said they would increase gen AI investment in 2025, up from about a quarter two years earlier, yet only 37% said their AI use had contributed positively to EBIT. McKinsey's fix: set measurable targets tied to business outcomes, redesign processes end to end instead of funding isolated pilots, and lead change management as executive sponsor.",
+          "url": "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/how-cfos-can-make-ai-pay-off",
+          "source": "mckinsey.com"
+        },
+        {
+          "n": 8,
+          "section": "finance",
+          "headline": "Berlin's dnl brings AI audit agents to US auditors",
+          "summary": "dnl launched its audit technology in the US on Nov 26, with four AI agents for disclosure reviews, numerical consistency checks, version comparisons and report reviews, plus a US GAAP disclosure checklist available since Nov 16. The platform is used by 15,000 auditors at 140 firms, with more than 60,000 audits completed, and about one in five German annual financial-statement audits runs on it.",
+          "url": "https://reason-why.berlin/n/berlins-dnl-brings-ai-agents-to-us-auditors/",
+          "source": "reason-why.berlin"
+        },
+        {
+          "n": 9,
+          "section": "finance",
+          "headline": "AI agents now approve expense claims in production at Ajinomoto and Nitto Denko",
+          "summary": "A roundup of 15 recent finance-AI cases finds AI embedded with accounting rules now handles most approve-or-return expense decisions live, while regulatory work drives contract reviews cut from 40 minutes to 1 minute and from 3 hours to 2 minutes. SAP's Accruals Agent proposes accruals and deferrals and its Cash Management Agent automates bank-statement reconciliation.",
+          "url": "https://www.pnw.jp/ai-cases-accounting-en/",
+          "source": "pnw.jp"
+        },
+        {
+          "n": 10,
+          "section": "finance",
+          "headline": "Close-agent wave: FloQast, BlackLine and Sumary ship agents that draft journals with human approval",
+          "summary": "FloQast's Payroll JE Posting Agent (Nov 11) builds a balanced, fully coded payroll entry after every pay run; BlackLine announced three Verity agents for SAP customers (Nov 9); Sumary raised a $25M seed (Nov 10) for scheduled close and VAT agents. In each case a named approver signs off and nothing is written to a ledger without approval.",
+          "url": "https://www.aifinancestack.com/guides/ai-agents-for-finance-teams",
+          "source": "aifinancestack.com"
+        }
+      ]
+    },
+    {
       "date": "2026-11-27",
       "label": "Friday, November 27, 2026",
-      "latest": true,
+      "latest": false,
       "items": [
         {
           "n": 1,
